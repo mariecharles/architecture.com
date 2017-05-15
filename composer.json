@@ -1,0 +1,16 @@
+{
+    "name": "leacharrier/architecture",
+    "authors": [
+        {
+            "name": "Lea Charrier",
+            "email": "lea.charrier@hetic.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "controllers\\":"controllers/",
+            "classes\\":"classes/"
+        }
+    }
+}

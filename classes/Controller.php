@@ -1,33 +1,32 @@
 <?php
-
+namespace classes;
 abstract class Controller {
 
-    protected $_requestUrl;
+    protected $_request;
     protected $_action;
+    protected $_db;
 
-    public function __construct($action, $requestUrl)
+    public function __construct($action, $request)
     {
-
-        $this->_requestUrl = $requestUrl;
         $this->_action = $action;
+        $this->_request = $request;
     }
 
     public function execAction() {
 
-        return $this->{$this->action}();
+        return $this->{$this->_action}();
     }
 
-    public function assocView($viewmodem, $globalView) {
+    public function assocView($viewmodel, $globalView) {
 
         $view = 'views/' . get_class($this) . '/' . $this->_action . '.php';
 
         if (!$view) {
-            require 'views/home.php';
+            require 'views/main.php';
         } else {
-            require $view;
+            require ($view);
         }
 
     }
-
 
 };
