@@ -1,7 +1,10 @@
 <?php
+require 'config/database.php';
 
-require 'Controller/home.php';
 require 'classes/Controller.php';
+require 'Controller/home.php';
+
+
 if($_GET['controller'] == "") {
     $controller = 'home';
 } else {
@@ -9,5 +12,8 @@ if($_GET['controller'] == "") {
 }
 
 $test = new $controller();
+
+
+echo 'bonjour';
 
 
