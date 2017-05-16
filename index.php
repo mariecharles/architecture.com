@@ -3,6 +3,8 @@
 
 require 'vendor/autoload.php'; // Autoload qui récupère toutes les class
 
+define('ROOT_URL', 'localhost/architecture.com/');
+
 $controller = 'controllers\\';  // On rentre dans le namespace controllers
 
 if($_GET['controller'] == "") {

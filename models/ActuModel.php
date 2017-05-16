@@ -8,7 +8,7 @@ use classes\Model;
 class ActuModel extends Model {
 
 
-    public function PageActu() {
+    public function pageActu() {
 
         $sql = "SELECT `id`, `date`, `architecte`, `réalisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu`";
 
@@ -16,6 +16,10 @@ class ActuModel extends Model {
 
         $datarow = $this->setResult();
 
+
         return $datarow;
+
+
+
     }
 }

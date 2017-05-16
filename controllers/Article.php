@@ -6,11 +6,9 @@ use models\ArticleModel;
 
 class Article extends Controller
 {
-    protected function Index() {
-
+    protected function Articles() {
         $viewmodel = new ArticleModel();
-        $this->render('article.php', $viewmodel->pageArticle());
-
+        $this->render('article-detail.php', $viewmodel->pageArticle());
     }
 
 }

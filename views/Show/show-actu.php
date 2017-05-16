@@ -15,7 +15,7 @@ foreach ($viewmodel as $element):
 
     ?>
 
-    <div>
+    <div><a href="<?='article/articles/' . $element['id']?>">
         <div><?= $element['date'] ?></div>
         <div><?= $element['architecte'] ?></div>
         <div><?= $element['realisations'] ?></div>
@@ -24,7 +24,7 @@ foreach ($viewmodel as $element):
         <div><?= $element['departement'] ?></div>
         <div><?= $element['contenu'] ?></div>
         <img src="assets/img-content/<?= $element['img'] ?>" alt="">
-    </div>
+    </div></a>
 
 <?php endforeach; ?>
 
