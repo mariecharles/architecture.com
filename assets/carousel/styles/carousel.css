@@ -1,0 +1,129 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after
+{
+	box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after
+{
+	content: " "; 
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*=================carousel==========================*/
+main{
+    overflow: hidden;
+}
+.carousel{
+    height: 100vh;
+
+}
+
+.carousel ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width:300vw;
+	position: relative;
+	left: 0;
+	transition : 0.8s;
+}
+
+
+.carousel ul .li-carousel{
+	width: 100vw;
+	float: left;
+
+}
+
+.carousel ul .li-carousel img{
+	width: 100vw;
+}
+
+.container-next{
+	position: absolute;
+	right: 0;
+	width: 10%;
+	height: 300px;
+	background-color: brown;
+	top: 25%;
+}
+
+.container-prev{
+	position: absolute;
+	left: 0;
+	width: 10%;
+	height: 300px;
+	background-color: brown;
+	top: 25%;
+}
+
+.container-next:hover .next{
+	display: block;
+}
+
+.container-prev:hover .prev{
+	display: block;
+}
+
+.next{
+	display: none;
+	position: absolute;
+	right: 0;
+	width: 70%;
+	top: 25%;
+	cursor: pointer;
+}
+
+.prev{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 25%;
+	width: 70%;
+	cursor: pointer;
+}
+
+.next img, .prev img{
+	width: 100%;
+}
+
+.dots{
+	position: absolute;
+	bottom: 20%;
+	left: 52%;
+	transform:translateX(-48%);
+}
+.dots .dots-li.active{
+	background-color: #767676;
+	opacity: 1;
+}
+.dots-ul{
+	width: 20vw;
+	display:flex;
+	justify-content:space-between;
+}
+
+.dots .dots-li{
+	float: left;
+	list-style: none;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border: 2px solid #767676;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1%;
+}
