@@ -8,7 +8,7 @@ use classes\Model;
 class ArticleModel extends Model {
 
 
-    public function pageArticle() {
+    public function pageFromActu() {
 
         $sql = "SELECT `id`, `date`, `architecte`, `réalisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu` WHERE `id` = :id";
 

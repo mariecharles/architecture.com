@@ -24,12 +24,7 @@ abstract class Controller {
 
         $view = self::VIEW_DIR . $globalView;
 
-
-        if (!$view) {
-            require 'views/main.php';
-        } else {
-            require ($view);
-        }
+        require ($view);
 
     }
 

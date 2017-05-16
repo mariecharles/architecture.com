@@ -5,8 +5,19 @@ namespace models;
 use classes\Model;
 
 
-class ActuModel extends Model {
+class AdminGlobalListModel extends Model {
 
+
+    public function listRevues() {
+
+        $sql = "SELECT `id`, `zone`, `img`, `date`, `num` FROM `magazine`";
+
+        $this->_stmt = $this->pdo->prepare($sql);
+
+        $datarow = $this->setResult();
+
+        return $datarow;
+    }
 
     public function listActu() {
 
@@ -19,6 +30,7 @@ class ActuModel extends Model {
 
         return $datarow;
 
-
     }
+
+
 }
