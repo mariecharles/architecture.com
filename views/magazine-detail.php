@@ -8,21 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Index</h1>
-<?php
+<h1>Un magazine</h1>
 
-foreach ($viewmodel as $element):
-
-?>
-
-<div>
-    <div><?= $element['num'] ?></div>
-    <div><?= $element['zone'] ?></div>
-    <div><?= $element['date'] ?></div>
-    <img src="assets/img-content/<?= $element['img'] ?>" alt="">
-</div>
-
-<?php endforeach; ?>
+    <div>
+        <div><?= $viewmodel[0]['num']?></div>
+        <div><?= $viewmodel[0]['zone'] ?></div>
+        <div><?= $viewmodel[0]['date'] ?></div>
+        <img src="/architecture.com/assets/img-content/<?= $viewmodel[0]['img'] ?>" alt="">
+    </div>
 
 </body>
 </html>

@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Blabla</h1>
+<h1>Coucou c'est les magazines</h1>
 <?php
 
 foreach ($viewmodel as $element):
@@ -16,10 +16,12 @@ foreach ($viewmodel as $element):
     ?>
 
     <div>
+        <a href="<?='magazine/' . $element['id']?>">
         <div><?= $element['num'] ?></div>
         <div><?= $element['zone'] ?></div>
         <div><?= $element['date'] ?></div>
         <img src="assets/img-content/<?= $element['img'] ?>" alt="">
+        </a>
     </div>
 
 <?php endforeach; ?>

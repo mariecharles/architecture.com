@@ -5,12 +5,12 @@ namespace models;
 use classes\Model;
 
 
-class ArticleModel extends Model {
+class MagazineModel extends Model {
 
 
-    public function pageArticle() {
+    public function pageMagazine() {
 
-        $sql = "SELECT `id`, `date`, `architecte`, `réalisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu` WHERE `id` = :id";
+        $sql = "SELECT `id`, `zone`, `img`, `date`, `num` FROM `magazine` WHERE `id` = :id";
 
         $this->_stmt = $this->pdo->prepare($sql);
 

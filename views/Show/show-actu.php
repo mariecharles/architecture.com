@@ -15,7 +15,7 @@ foreach ($viewmodel as $element):
 
     ?>
 
-    <div><a href="<?='article/articles/' . $element['id']?>">
+    <div><a href="<?='article/' . $element['id']?>">
         <div><?= $element['date'] ?></div>
         <div><?= $element['architecte'] ?></div>
         <div><?= $element['realisations'] ?></div>

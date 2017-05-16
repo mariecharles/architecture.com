@@ -11,14 +11,14 @@
 <h1>Un article</h1>
 
 <div>
-    <div><?= $viewmodel['date'] ?></div>
-    <div><?= $viewmodel['architecte'] ?></div>
-    <div><?= $viewmodel['realisations'] ?></div>
-    <div><?= $viewmodel['rubrique'] ?></div>
-    <div><?= $viewmodel['lieu'] ?></div>
-    <div><?= $viewmodel['departement'] ?></div>
-    <div><?= $viewmodel['contenu'] ?></div>
-    <img src="assets/img-content/<?= $viewmodel['img'] ?>" alt="">
+    <div><?= $viewmodel[0]['date'] ?></div>
+    <div><?= $viewmodel[0]['architecte'] ?></div>
+    <div><?= $viewmodel[0]['realisations'] ?></div>
+    <div><?= $viewmodel[0]['rubrique'] ?></div>
+    <div><?= $viewmodel[0]['lieu'] ?></div>
+    <div><?= $viewmodel[0]['departement'] ?></div>
+    <div><?= $viewmodel[0]['contenu'] ?></div>
+    <img src="/architecture.com/assets/img-content/<?= $viewmodel[0]['img'] ?>" alt="">
 </div>
 
 </body>
