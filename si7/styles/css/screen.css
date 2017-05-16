@@ -1,0 +1,91 @@
+/* --------------------------------------
+------ IMPORTS
+-----------------------------------------*/
+@font-face {
+  font-family: 'big_johnregular';
+  src: url("../../fonts/big_john-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+body {
+  font-family: 'Source Sans Pro';
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: #191919; }
+
+input[type="text"] {
+  outline: none; }
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Amiko'; }
+
+h1, h3 {
+  font-family: 'Amiko'; }
+
+#newsletter {
+  font-family: 'Lato', sans-serif; }
+  #newsletter h1 {
+    text-align: center;
+    margin: 7% 0%;
+    font-family: 'big_johnregular';
+    letter-spacing: 7px;
+    text-transform: uppercase; }
+  #newsletter h2 {
+    font-size: 24px;
+    margin: 5% 0% 2%;
+    font-family: 'big_johnregular';
+    line-height: 10px;
+    border-bottom: #39C4D6 solid 9px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+  #newsletter p {
+    font-size: 14px; }
+  #newsletter p:nth-child(2) {
+    font-family: 'big_johnregular';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #newsletter p:nth-child(3) {
+    font-weight: 400;
+    line-height: 20px; }
+  #newsletter p:nth-child(4) {
+    font-weight: 300;
+    font-style: italic; }
+  #newsletter img {
+    width: 25%;
+    margin-left: 1%;
+    float: left; }
+  #newsletter .text-f {
+    float: left; }
+  #newsletter #actu1 {
+    text-align: right; }
+    #newsletter #actu1 .text-f {
+      width: 57%; }
+  #newsletter #actu2 {
+    text-align: left;
+    margin-top: 34%; }
+    #newsletter #actu2 img {
+      margin: 0% 1% 0% 13%; }
+    #newsletter #actu2 h2 {
+      margin: 3% 0% 2%; }
+
+/*# sourceMappingURL=screen.css.map */
