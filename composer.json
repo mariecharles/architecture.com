@@ -6,11 +6,12 @@
             "email": "lea.charrier@hetic.net"
         }
     ],
-    "require": {},
+    "require": {"twig/twig": "^1.2"},
     "autoload": {
         "psr-4": {
             "controllers\\":"controllers/",
-            "classes\\":"classes/"
+            "classes\\":"classes/",
+            "models\\":"models/"
         }
     }
 }
