@@ -8,14 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Coucou c'est les actu</h1>
+<h1>Panel admin</h1>
 <?php
 
 foreach ($viewmodel as $element):
 
     ?>
 
-    <div><a href="<?='article/' . $element['id']?>">
+    <div><a href="<?='getPageActu/' . $element['id']?>">
         <div><?= $element['date'] ?></div>
         <div><?= $element['architecte'] ?></div>
         <div><?= $element['realisations'] ?></div>

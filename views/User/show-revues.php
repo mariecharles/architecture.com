@@ -16,11 +16,11 @@ foreach ($viewmodel as $element):
     ?>
 
     <div>
-        <a href="<?='magazine/' . $element['id']?>">
+        <a href="<?='revues/getPageMagazine/' . $element['id']?>">
         <div><?= $element['num'] ?></div>
         <div><?= $element['zone'] ?></div>
         <div><?= $element['date'] ?></div>
-        <img src="assets/img-content/<?= $element['img'] ?>" alt="">
+        <img src="/architecture.com/assets/img-content/<?= $element['img'] ?>" alt="">
         </a>
     </div>
 

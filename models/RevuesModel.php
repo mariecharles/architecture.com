@@ -8,7 +8,7 @@ use classes\Model;
 class RevuesModel extends Model {
 
 
-    public function PageRevues() {
+    public function listRevues() {
 
         $sql = "SELECT `id`, `zone`, `img`, `date`, `num` FROM `magazine`";
 
