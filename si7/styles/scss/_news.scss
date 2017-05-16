@@ -39,26 +39,34 @@ img{
 	width: 25%;
 	margin-left: 1%;
 	float: left;
+	margin-bottom: 6%;
 }
 .text-f{
 	float: left;
 }
-	#actu1{
+	section:nth-child(2),section:nth-child(4),section:nth-child(6){
 		text-align:right;
 			.text-f{
 				width: 57%;
 			}
 	}
-	#actu2{
+	section:nth-child(3),section:nth-child(5){
 		text-align:left;
-		margin-top: 34%;
+		//margin-top: 30%;
 			
 			img{
 				margin: 0% 1% 0% 13%;
-		
 			}
 			h2{
 				margin:3% 0% 2%;	
 			}
 	}
+	section:nth-child(4),section:nth-child(6){
+		clear: both;
+		margin-top: 9%;
+	}
+	section:nth-child(5){
+		//margin-top: 32%;
+	}
+
 }

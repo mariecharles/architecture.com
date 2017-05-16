@@ -73,19 +73,22 @@ h1, h3 {
   #newsletter img {
     width: 25%;
     margin-left: 1%;
-    float: left; }
+    float: left;
+    margin-bottom: 6%; }
   #newsletter .text-f {
     float: left; }
-  #newsletter #actu1 {
+  #newsletter section:nth-child(2), #newsletter section:nth-child(4), #newsletter section:nth-child(6) {
     text-align: right; }
-    #newsletter #actu1 .text-f {
+    #newsletter section:nth-child(2) .text-f, #newsletter section:nth-child(4) .text-f, #newsletter section:nth-child(6) .text-f {
       width: 57%; }
-  #newsletter #actu2 {
-    text-align: left;
-    margin-top: 34%; }
-    #newsletter #actu2 img {
+  #newsletter section:nth-child(3), #newsletter section:nth-child(5) {
+    text-align: left; }
+    #newsletter section:nth-child(3) img, #newsletter section:nth-child(5) img {
       margin: 0% 1% 0% 13%; }
-    #newsletter #actu2 h2 {
+    #newsletter section:nth-child(3) h2, #newsletter section:nth-child(5) h2 {
       margin: 3% 0% 2%; }
+  #newsletter section:nth-child(4), #newsletter section:nth-child(6) {
+    clear: both;
+    margin-top: 9%; }
 
 /*# sourceMappingURL=screen.css.map */
