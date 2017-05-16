@@ -2,24 +2,28 @@
 namespace classes;
 abstract class Controller {
 
-    protected $_request;
-    protected $_action;
-    protected $_db;
 
-    public function __construct($action, $request)
+    protected $_action;
+
+    const VIEW_DIR = 'views/';
+
+    public function __construct($action)
     {
         $this->_action = $action;
-        $this->_request = $request;
     }
 
     public function execAction() {
 
+
         return $this->{$this->_action}();
+
+
     }
 
-    public function assocView($viewmodel, $globalView) {
+    public function render($globalView,$viewmodel) {
 
-        $view = 'views/' . get_class($this) . '/' . $this->_action . '.php';
+        $view = self::VIEW_DIR . $globalView;
+
 
         if (!$view) {
             require 'views/main.php';
