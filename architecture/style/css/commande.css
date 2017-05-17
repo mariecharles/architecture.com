@@ -1,0 +1,14 @@
+@import url(header.css);
+/*-------HEADER--------*/
+div.head-filters {
+  margin-top: 5%;
+  text-align: center; }
+
+div.commande {
+  width: 45%; }
+
+/*--------LABEL----------*/
+label {
+  width: 20%; }
+
+/*# sourceMappingURL=commande.css.map */

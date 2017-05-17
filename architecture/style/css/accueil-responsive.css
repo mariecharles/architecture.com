@@ -1,0 +1,70 @@
+@import url(header.css);
+@import url(accueil.css);
+@media screen and (max-width: 1290px) {
+  h1.nom {
+    font-size: 30px; } }
+@media screen and (max-width: 1000px) {
+  nav {
+    display: none; }
+
+  div.slider-projet {
+    display: none; }
+
+  div.background {
+    margin-top: 5%;
+    z-index: -1;
+    display: block;
+    margin: auto; }
+
+  p.description {
+    font-size: 15px; }
+
+  div.qui-somme-nous {
+    width: 100%;
+    display: block;
+    margin: auto;
+    left: 5%;
+    margin-top: -15%; }
+
+  div.approche {
+    width: 100%;
+    display: block;
+    margin: auto;
+    left: 5%;
+    margin-top: 0; }
+
+  div.approche-regionale-2 {
+    display: block;
+    margin: 0; }
+
+  div.approche-regionale {
+    display: block;
+    margin: 0;
+    margin-top: 20%; }
+
+  div.image-approche {
+    display: block;
+    margin: auto;
+    float: right;
+    margin-top: 10%; }
+
+  div.somme-nous {
+    display: block;
+    margin: auto; }
+
+  div.approche-regionale-3 {
+    margin-top: -15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; } }
+@media screen and (max-width: 750px) {
+  div.approche-regionale {
+    width: 100%;
+    margin: 0; }
+
+  div.approche-regionale-3 {
+    width: 100%;
+    margin: 0; } }
+
+/*# sourceMappingURL=accueil-responsive.css.map */

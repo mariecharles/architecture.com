@@ -1,0 +1,115 @@
+@import url(header.css);
+* {
+  margin: 0;
+  padding: 0; }
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+main {
+  overflow: hidden; }
+
+/*---------------ARTICLE----------------*/
+div.description-article-image {
+  background-color: #f6f6f6; }
+
+div.description-article {
+  text-align: center;
+  margin-top: 5%; }
+
+article.description {
+  display: block;
+  margin: auto;
+  width: 30%; }
+  @media screen and (max-width: 700px) {
+    article.description {
+      width: 50%; } }
+
+article.description h1 {
+  font-size: 24px;
+  margin: 5% 0% 2%;
+  line-height: 10px;
+  border-bottom: #39C4D6 solid 9px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+  @media screen and (max-width: 1000px) {
+    article.description h1 {
+      font-size: 20px; } }
+  @media screen and (max-width: 700px) {
+    article.description h1 {
+      font-size: 16px; } }
+
+article.description h3 {
+  font-size: 20px; }
+  @media screen and (max-width: 1000px) {
+    article.description h3 {
+      font-size: 17px; } }
+
+article.description h4 {
+  font-size: 18px; }
+
+div.article {
+  text-align: center;
+  margin-top: 5%; }
+
+img.article-image {
+  width: 30%; }
+  @media screen and (max-width: 1000px) {
+    img.article-image {
+      width: 60%; } }
+  @media screen and (max-width: 700px) {
+    img.article-image {
+      width: 80%; } }
+
+/*-------------TEXTE DESCRIPTIF LEFT-------------*/
+div.texte-descriptif-image-left {
+  float: left;
+  margin-left: 12%; }
+
+div.texte {
+  margin-top: 15%;
+  width: 100%; }
+
+span.lol {
+  display: none; }
+
+/*----------TEXTE DESCRIPTIF RIGHT--------*/
+div.texte-descriptif-image-right {
+  float: left;
+  margin-left: 10%; }
+
+img.image {
+  width: 100%;
+  margin-top: 10%; }
+
+@media screen and (max-width: 980px) {
+  nav {
+    display: none; }
+
+  span.lol {
+    display: block; }
+
+  article.descriptif-2 {
+    display: none; }
+
+  img.image {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10%; }
+
+  div.texte-descriptif-image-right {
+    float: left;
+    margin-left: 10%; }
+
+  div.texte-descriptif-image-left {
+    float: left;
+    margin-left: 10%; }
+
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important; } }
+
+/*# sourceMappingURL=actualite.css.map */
