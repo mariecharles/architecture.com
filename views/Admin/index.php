@@ -50,11 +50,11 @@
                 <td><?= $revue['date'] ?></td>
                 <td>
 
-                    <button><a href="">Modifier</a></button>
+                    <button><a href="<?='getPageActu/' . $revue['id']?>">Modifier</a></button>
                 </td>
                 <td>
-                    <form method="post" action="delete.php">
-                        <input type="hidden" value="<?= $row['id']?>" name ="id">
+                    <form method="post" action="deleteRevues">
+                        <input type="hidden" value="<?= $revue['id']?>" name ="id">
                         <input type="submit" value="Supprimer">
                     </form>
                 </td>
@@ -88,11 +88,11 @@
                     <td><?= $actu['réalisations'] ?></td>
                     <td><?= $actu['date'] ?></td>
                     <td>
-                        <button><a href="">Modifier</a></button>
+                        <button><a href="<?='getPageActu/' . $actu['id']?>">Modifier</a></button>
                     </td>
                     <td>
-                        <form method="post" action="delete.php">
-                            <input type="hidden" value="<?= $row['id']?>" name ="id">
+                        <form method="post" action="deleteActu">
+                            <input type="hidden" value="<?= $actu['id']?>" name ="id">
                             <input type="submit" value="Supprimer">
                         </form>
                     </td>
