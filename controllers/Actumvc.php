@@ -18,7 +18,8 @@ class Actu
                  realisations,
                  rubrique,
                  lieu,
-                 departement
+                 departement,
+                 img
                 FROM
                  actu
                 WHERE
@@ -41,7 +42,8 @@ class Actu
                  realisations,
                  rubrique,
                  lieu,
-                 departement
+                 departement,
+                 img
                 FROM
                  actu";
 
@@ -54,9 +56,9 @@ class Actu
     {
         $sql = "INSERT INTO actu(
                    date, architecte, realisations,
-                   rubrique, lieu, departement)
+                   rubrique, lieu, departement,img)
                 VALUES
-               (:date,:architecte,:realisations,:rubrique, :lieu, :departement)";
+               (:date,:architecte,:realisations,:rubrique, :lieu, :departement, :img)";
 
 
         $requete = $this->pdo->prepare($sql);
@@ -66,7 +68,8 @@ class Actu
             'realisations'    => $param['realisations'],
             'rubrique'        => $param['rubrique'],
             'lieu'            => $param['lieu'],
-            'departement'     => $param['departement']
+            'departement'     => $param['departement'],
+            'img'             =>$param ['img']
         ));
     }
 
@@ -91,7 +94,8 @@ class Actu
                 realisations = :realisations,
                 rubrique = :rubrique,
                 lieu = :lieu,
-                departement = :departement
+                departement = :departement,
+                img = :img
                 WHERE 
                 id = :id";
 
@@ -102,7 +106,8 @@ class Actu
             'realisations'    => $param['realisations'],
             'rubrique'        => $param['rubrique'],
             'lieu'            => $param['lieu'],
-            'departement'     => $param['departement']
+            'departement'     => $param['departement'],
+            'img'             => $param['img']
         ));
     }
 }
