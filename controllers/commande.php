@@ -1,19 +1,17 @@
 <?php
 require_once "../helper/connect.php";
 
-$raison_sociale = $_POST['raison_sociale'];
-$fonction = $_POST['fonction'];
-$activite = $_POST['activite'];
-$nom = $_POST['nom'];
-$adresse = $_POST['adresse'];
-$code_postal = $_POST['code_postal'];
-$pays = $_POST['pays'];
-$telephone = $_POST['telephone'];
-$fax = $_POST['fax'];
-$mail = $_POST['mail'];
-$confirm_mail = $_POST['confirm_mail'];
-$zone_geographique = $_POST['zone_geographique'];
-$choix_revue = $_POST['choix_revue'];
+
+require_once "FormulaireCommandemvc.php";
+
+$News = new Commande();
+if($_SERVER['REQUEST_METHOD'] == 'POST')
+{
+	$News->insert($_POST);
+	header("Location: commande.php");
+	exit();
+}
+
 
 
 
@@ -36,10 +34,11 @@ $choix_revue = $_POST['choix_revue'];
 
 
 	<main id="commande">
+		<form action="commande.php" method="post">
 
 		<div>
-			<label for="raison_sociale">Raison sociale</label>
-			<input type="text" name="raison_sociale" id="raison">
+			<label for="raisonsociale">Raison sociale</label>
+			<input type="text" name="raisonsociale" id="raison">
 		</div>
 
 		<div>
@@ -93,8 +92,8 @@ $choix_revue = $_POST['choix_revue'];
 		</div>
 
 		<div>
-			<label for="zone_geographique">Zone géographique </label>
-			<select name="zone_geographique" id="zone_geographique">
+			<label for="zonegeographique">Zone géographique </label>
+			<select name="zonegeographique" id="zone_geographique">
 				<option value="zone1">France métropolitaine</option>
 				<option value="zone2">Suisse</option>
 				<option value="zone3" selected="">Belgique</option>
@@ -102,38 +101,39 @@ $choix_revue = $_POST['choix_revue'];
 		</div>
 
 		<div>
-			<label for="revue">Choix revue * </label>
-			<select name="revue" id="revue" required="">
+			<label for="choixrevue">Choix revue * </label>
+			<select name="choixrevue" id="revue" required>
 				<option value="revue1">France métropolitaine</option>
 				<option value="revue2">Suisse</option>
 				<option value="revue3" selected="">Belgique</option>
 			</select>
 		</div>
-		
+		<input type="submit" name="validation_boutton" value="Ajouter">
+		</form>
 	</main>
 	
 </body>
 
-<script>
-        var main_name = document.querySelector('main#commande');
-        var filter_commande = document.querySelector('#filters span.filter-commande');
-        var main_abonnement = document.querySelector('main#abonnement');
-        var filter_abonnement = document.querySelector('#filters span.filter-abonnement');
-        filter_commande.addEventListener('click', function () {
-            body.id = 'commande';
-            this.classList.add('active');
-            filter_abonnement.classList.remove('active');
-            main_commande.style.display = 'block';
-            main_abonnement.style.display = 'none';
-
-        });
-
-        filter_commande.addEventListener('click', function () {
-            body.id = 'abonnement';
-            this.classList.add('active');
-            filter_commande.classList.remove('active');
-            main_abonnement.style.display = 'block';
-            main_commande.style.display = 'none';
-        });
-    </script>
+<!--<script>-->
+<!--        var main_name = document.querySelector('main#commande');-->
+<!--        var filter_commande = document.querySelector('#filters span.filter-commande');-->
+<!--        var main_abonnement = document.querySelector('main#abonnement');-->
+<!--        var filter_abonnement = document.querySelector('#filters span.filter-abonnement');-->
+<!--        filter_commande.addEventListener('click', function () {-->
+<!--            body.id = 'commande';-->
+<!--            this.classList.add('active');-->
+<!--            filter_abonnement.classList.remove('active');-->
+<!--            main_commande.style.display = 'block';-->
+<!--            main_abonnement.style.display = 'none';-->
+<!---->
+<!--        });-->
+<!---->
+<!--        filter_commande.addEventListener('click', function () {-->
+<!--            body.id = 'abonnement';-->
+<!--            this.classList.add('active');-->
+<!--            filter_commande.classList.remove('active');-->
+<!--            main_abonnement.style.display = 'block';-->
+<!--            main_commande.style.display = 'none';-->
+<!--        });-->
+<!--    </script>-->
 </html>

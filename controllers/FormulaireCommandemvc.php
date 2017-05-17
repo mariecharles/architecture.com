@@ -11,37 +11,37 @@ class Commande
 
     public function insert($param)
     {
-        $sql = "INSERT INTO formulaire-client(
-                    raison_sociale, 
+        $sql = "INSERT INTO formulaire_client(
+                    raisonsociale, 
                     fonction, 
                     activite, 
                     nom, 
                     adresse, 
-                    code_postal, 
+                    codepostal, 
                     pays, 
                     telephone, 
                     fax, 
                     mail, 
-                    zone_geographique, 
-                    choix_revue )
+                    zonegeographique, 
+                    choixrevue )
                 VALUES
-               (:raison_sociale,:fonction,:activite, :nom, :adresse, :code_postal, :pays, :telephone, :fax, :mail, :zone_geographique, :choix_revue)";
+               (:raisonsociale,:fonction,:activite, :nom, :adresse, :codepostal, :pays, :telephone, :fax, :mail, :zonegeographique, :choixrevue)";
 
 
         $requete = $this->pdo->prepare($sql);
         $requete->execute(array(
-            'raison_sociale'     => $param['raison_sociale'],
-            'fonction'      => $param['fonction'],
-            'activite'     => $param['activite'],
-            'nom'     => $param['nom'],
-            'adresse'      => $param['adresse'],
-            'code_postal'     => $param['code_postal'],
-            'pays'     => $param['pays'],
-            'telephone'      => $param['telephone'],
-            'fax'     => $param['fax'],
-            'mail'     => $param['mail'],
-            'zone_geographique'      => $param['zone_geographique'],
-            'choix_revue'     => $param['choix_revue']
+            'raisonsociale'     => $param['raisonsociale'],
+            'fonction'          => $param['fonction'],
+            'activite'          => $param['activite'],
+            'nom'               => $param['nom'],
+            'adresse'           => $param['adresse'],
+            'codepostal'        => $param['codepostal'],
+            'pays'              => $param['pays'],
+            'telephone'         => $param['telephone'],
+            'fax'               => $param['fax'],
+            'mail'              => $param['mail'],
+            'zonegeographique'  => $param['zonegeographique'],
+            'choixrevue'        => $param['choixrevue']
         ));
     }
 }
