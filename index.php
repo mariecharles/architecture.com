@@ -1,6 +1,8 @@
 <?php
 require 'vendor/autoload.php'; // Autoload qui récupère toutes les class
 
+require 'config.php';
+
 define('ROOT_URL', 'localhost/architecture.com/');
 
 $controller = 'controllers\\';  // On rentre dans le namespace controllers
