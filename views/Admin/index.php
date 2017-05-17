@@ -6,51 +6,68 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/architecture.com/assets/styles/css/screen.css">
+    <link rel="stylesheet" href="assets/styles/css/screen.css">
     <title>larchitecture.com - Interface Admin</title>
 </head>
-<body id="mainbackoffice">
+<body>
+<h1>Bienvenue Administrateur</h1>
 
-    <header>
+<div class="wrapper-list">
 
-        <p>Bonjour <span>Machin</span></p>
-        <a href="">Retourner sur le site</a>
+    <h2>Gérer les revues</h2>
 
-    </header>
+    <table>
+        <tr>
+            <th>N°</th>
+            <th>Région</th>
+            <th>Date</th>
+        </tr>
 
-    <h1>Bienvenue Administrateur</h1>
+        <?php
 
-    <h2>Que voulez-vous faire ?</h2>
+        foreach ($viewmodel['revues'] as $revue): ?>
 
-    <ul class="tabs">
-        <li>Gérer les revues</li>
-        <li>Gérer les actualités</li>
-        <li>Gérer les commandes</li>
-    </ul>
+        <tr>
+            <td><?= $revue['num'] ?></td>
+            <td><?= $revue['zone'] ?></td>
+            <td><?= $revue['date'] ?></td>
+            <td>
+                <a href="resume.php?id=<?=$row['id']?>">Modifier</a>
+            </td>
+            <td>
+                <form method="post" action="delete.php">
+                    <input type="hidden" value="<?= $row['id']?>" name ="id">
+                    <input type="submit" value="Supprimer">
+                </form>
+            </td>
+        </tr>
 
-    <div class="wrapper-list revues">
+        <?php endforeach; ?>
 
-        <a href="" class="add-btn">+ Ajouter une revue</a>
+    </table>
 
-        <table>
+
+    <h2>Gérer les actualités</h2>
+
+    <table>
+        <tr>
+            <th>Architecte</th>
+            <th>Réalisation</th>
+            <th>Date</th>
+        </tr>
+
+        <?php
+
+        foreach ($viewmodel['actu'] as $actu):
+
+        ?>
+
             <tr>
-                <th>N°</th>
-                <th>Région</th>
-                <th>Date</th>
-            </tr>
-
-            <?php
-
-            foreach ($viewmodel['revues'] as $revue): ?>
-
-            <tr>
-
-                <td><?= $revue['num'] ?></td>
-                <td><?= $revue['zone'] ?></td>
-                <td><?= $revue['date'] ?></td>
+                <td><?= $actu['architecte'] ?></td>
+                <td><?= $actu['réalisations'] ?></td>
+                <td><?= $actu['date'] ?></td>
                 <td>
-
-                    <button><a href="">Modifier</a></button>
+                    <a href="resume.php?id=<?=$row['id']?>">Modifier</a>
                 </td>
                 <td>
                     <form method="post" action="delete.php">
@@ -60,76 +77,11 @@
                 </td>
             </tr>
 
-            <?php endforeach; ?>
+        <?php endforeach; ?>
 
-        </table>
-    </div>
+    </table>
 
-    <div class="wrapper-list actu">
-
-
-        <a href="" class="add-btn">+ Ajouter un article</a>
-
-        <table>
-            <tr>
-                <th>Architecte</th>
-                <th>Réalisation</th>
-                <th>Date</th>
-            </tr>
-
-            <?php
-
-            foreach ($viewmodel['actu'] as $actu):
-
-            ?>
-
-                <tr>
-                    <td><?= $actu['architecte'] ?></td>
-                    <td><?= $actu['réalisations'] ?></td>
-                    <td><?= $actu['date'] ?></td>
-                    <td>
-                        <button><a href="">Modifier</a></button>
-                    </td>
-                    <td>
-                        <form method="post" action="delete.php">
-                            <input type="hidden" value="<?= $row['id']?>" name ="id">
-                            <input type="submit" value="Supprimer">
-                        </form>
-                    </td>
-                </tr>
-
-            <?php endforeach; ?>
-
-        </table>
-
-    </div>
-
-    <div class="wrapper-list commandes">
-
-
-        <table class="list-clients">
-            <tr>
-                <th colspan="3">Edouard lol</th>
-            </tr>
-            <tr>
-                <td>N°260</td>
-                <td>Edition IDF</td>
-                <td>Quantité: 4</td>
-            </tr>
-        </table>
-        <table>
-
-            <tr>
-                <th colspan="3">Edouard lol</th>
-            </tr>
-            <tr>
-                <td>N°260</td>
-                <td>Edition IDF</td>
-                <td>Quantité: 4</td>
-            </tr>
-        </table>
-
-    </div>
+</div>
 
 </body>
 </html>
