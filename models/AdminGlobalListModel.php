@@ -32,5 +32,18 @@ class AdminGlobalListModel extends Model {
 
     }
 
+    public function listCommandes() {
+
+        $sql = "SELECT `id`, `nom`, `choixrevue` FROM `commande`";
+
+        $this->_stmt = $this->pdo->prepare($sql);
+
+        $datarow = $this->setResult();
+
+
+        return $datarow;
+
+    }
+
 
 }

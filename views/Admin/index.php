@@ -13,8 +13,8 @@
 
     <header>
 
-        <p>Bonjour <span>Machin</span></p>
-        <a href="">Retourner sur le site</a>
+        <p>Bonjour <span>François</span></p>
+        <a href="../revues">Retourner sur le site</a>
 
     </header>
 
@@ -25,7 +25,7 @@
     <ul class="tabs">
         <li>Gérer les revues</li>
         <li>Gérer les actualités</li>
-        <li>Gérer les commandes</li>
+        <li>Demandes clients</li>
     </ul>
 
     <div class="wrapper-list revues">
@@ -104,32 +104,79 @@
 
     </div>
 
-    <div class="wrapper-list commandes">
+    <div class="wrapper-list commandes;">
 
+        <h3>Commandes</h3>
 
-        <table class="list-clients">
-            <tr>
-                <th colspan="3">Edouard lol</th>
-            </tr>
-            <tr>
-                <td>N°260</td>
-                <td>Edition IDF</td>
-                <td>Quantité: 4</td>
-            </tr>
-        </table>
         <table>
+            <tr>
+                <th>Commande n°</th>
+                <th>Nom</th>
+                <th>Choix de la revue</th>
+            </tr>
 
+            <?php
+
+            foreach ($viewmodel['commandes'] as $commande):
+
+                ?>
+
+                <tr>
+                    <td><?= $commande['id'] ?></td>
+                    <td>Mme/M. <?= $commande['nom'] ?></td>
+                    <td><?= $commande['choixrevue'] ?></td>
+                    <td>
+                        <button><a href="<?='getPageCommande/' . $commande['id']?>">Voir détail</a></button>
+                    </td>
+                    <td>
+                        <form method="post" action="deleteCommande">
+                            <input type="hidden" value="<?= $commande['id']?>" name ="id">
+                            <input type="submit" value="Ok/traité">
+                        </form>
+                    </td>
+                </tr>
+
+            <?php endforeach; ?>
+
+        </table>
+
+        <h3>Abonnements</h3>
+
+        <table>
             <tr>
-                <th colspan="3">Edouard lol</th>
+                <th>Commande n°</th>
+                <th>Nom</th>
+                <th>Choix de la revue</th>
             </tr>
-            <tr>
-                <td>N°260</td>
-                <td>Edition IDF</td>
-                <td>Quantité: 4</td>
-            </tr>
+
+            <?php
+
+            foreach ($viewmodel['commandes'] as $commande):
+
+                ?>
+
+                <tr>
+                    <td><?= $commande['id'] ?></td>
+                    <td>Mme/M. <?= $commande['nom'] ?></td>
+                    <td><?= $commande['choixrevue'] ?></td>
+                    <td>
+                        <button><a href="<?='getPageActu/' . $commande['id']?>">Voir détail</a></button>
+                    </td>
+                    <td>
+                        <form method="post" action="deleteCommande">
+                            <input type="hidden" value="<?= $commande['id']?>" name ="id">
+                            <input type="submit" value="Ok/traité">
+                        </form>
+                    </td>
+                </tr>
+
+            <?php endforeach; ?>
+
         </table>
 
     </div>
+
+    <script src="../assets/js/backoffice.js"></script>
 
 </body>
 </html>

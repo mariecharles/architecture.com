@@ -13,8 +13,8 @@
 
     <header>
 
-        <p>Bonjour <span>Machin</span></p>
-        <a href="">Retourner sur le site</a>
+        <p>Bonjour <span>François</span></p>
+        <a href="../revues">Retourner sur le site</a>
 
     </header>
 
@@ -22,30 +22,33 @@
 
     <h2>Ajouter une revue</h2>
 
-    <form method="post" action="../../admin/addRevues">
-        <div>
-            <label for="zone">Zone</label>
-            <input type="text" name="zone" id="zone">
-        </div>
-        <div>
-            <label for="date">Date</label>
-            <input type="text" name="date" id="date">
-        </div>
-        <div>
-            <label for="num">Numéro</label>
-            <input type="text" name="num" id="num">
-        </div>
-        <div>
-            <label for="img">Image</label>
-            <input type="text" name="img" id="img">
-        </div>
+    <div class="form-wrapper">
 
-        <div>
-            <input type="submit" value="Enregistrer les modifications">
-        </div>
+        <form method="post" action="../../admin/addRevues">
+            <div>
+                <label for="zone">Zone</label>
+                <input type="text" name="zone" id="zone">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="text" name="date" id="date">
+            </div>
+            <div>
+                <label for="num">Numéro</label>
+                <input type="text" name="num" id="num">
+            </div>
+            <div>
+                <label for="img">Image</label>
+                <input type="file" class="img-upload" name="img" id="img">
+            </div>
 
+            <div>
+                <input type="submit" value="Enregistrer les modifications">
+            </div>
 
-    </form>
+        </form>
+
+    </div>
 
 
 </body>

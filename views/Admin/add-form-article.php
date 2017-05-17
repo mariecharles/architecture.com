@@ -13,8 +13,8 @@
 
     <header>
 
-        <p>Bonjour <span>Machin</span></p>
-        <a href="">Retourner sur le site</a>
+        <p>Bonjour <span>François</span></p>
+        <a href="../revues">Retourner sur le site</a>
 
     </header>
 
@@ -22,39 +22,40 @@
 
     <h2>Ajouter un article</h2>
 
-    <form method="post" action="../../admin/addActu">
-        <div>
-            <label for="architecte">Architecte</label>
-            <input type="text" name="architecte" id="architecte">
-        </div>
-        <div>
-            <label for="realisations">Réalisation</label>
-            <input type="text" name="realisations" id="realisations">
-        </div>
-        <div>
-            <label for="rubrique">Rubrique</label>
-            <input type="text" name="rubrique" id="rubrique">
-        </div>
-        <div>
-            <label for="lieu">Lieu</label>
-            <input type="text" name="lieu" id="lieu">
-        </div>
-        <div>
-            <label for="departement">Département</label>
-            <input type="text" name="departement" id="lieu">
-        </div>
-        <div>
-            <label for="contenu">Contenu</label>
-            <textarea name="contenu" id="contenu" cols="30" rows="10"></textarea>
-        </div>
+    <div class="form-wrapper">
 
-        <div>
-            <input type="submit" value="Enregistrer les modifications">
-        </div>
+        <form method="post" action="../../admin/addActu">
+            <div>
+                <label for="architecte">Architecte</label>
+                <input type="text" name="architecte" id="architecte">
+            </div>
+            <div>
+                <label for="realisations">Réalisation</label>
+                <input type="text" name="realisations" id="realisations">
+            </div>
+            <div>
+                <label for="rubrique">Rubrique</label>
+                <input type="text" name="rubrique" id="rubrique">
+            </div>
+            <div>
+                <label for="lieu">Lieu</label>
+                <input type="text" name="lieu" id="lieu">
+            </div>
+            <div>
+                <label for="departement">Département</label>
+                <input type="text" name="departement" id="lieu">
+            </div>
+            <div>
+                <label for="contenu">Contenu</label>
+                <textarea name="contenu" id="contenu" cols="80" rows="20"></textarea>
+            </div>
 
+            <div>
+                <input type="submit" value="Enregistrer les modifications">
+            </div>
 
-    </form>
-
+        </form>
+    </div>
 
 </body>
 </html>
