@@ -6,6 +6,7 @@ use classes\Controller;
 use models\AdminActuModel;
 use models\AdminRevueModel;
 use models\ArticleModel;
+use models\MagazineModel;
 use models\AdminGlobalListModel;
 
 
@@ -26,13 +27,33 @@ class Admin extends Controller
 
     }
 
+
+
     protected function getPageActu() {
+        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+            $viewmodel = new ArticleModel();
 
-        $viewmodel = new ArticleModel();
+            $this->render('admin/edit-form-article.php', $viewmodel->pageFromActu());
+        } else {
+            $this->editActu();
+        }
 
-        $this->render('admin/eddit-form-article.php', $viewmodel->pageFromActu());
 
     }
+
+    protected function getPageRevues() {
+        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+            $viewmodel = new MagazineModel();
+
+            $this->render('admin/edit-form-revue.php', $viewmodel->pageFromRevues());
+        } else {
+            $this->editRevues();
+        }
+
+
+    }
+
+
 
 
     protected function deleteActu() {
@@ -53,14 +74,41 @@ class Admin extends Controller
 
 
 
+    protected function editActu() {
 
-    protected function edditActu() {
+       $viewmodel = new AdminActuModel();
+
+       $viewmodel->editElementAction();
+
+    }
+
+    protected function editRevues() {
+
+        $viewmodel = new AdminRevueModel();
+
+        $viewmodel->editElementAction();
+
+    }
+
+
+
+
+    protected function addActu() {
 
         $viewmodel = new AdminActuModel();
 
-        $viewmodel->edditElementAction();
+        $viewmodel->addElementAction();
 
     }
+
+    protected function addRevues() {
+
+        $viewmodel = new AdminRevueModel();
+
+        $viewmodel->addElementAction();
+
+    }
+
 
 }
 

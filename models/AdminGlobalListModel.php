@@ -21,7 +21,7 @@ class AdminGlobalListModel extends Model {
 
     public function listActu() {
 
-        $sql = "SELECT `id`, `date`, `architecte`, `réalisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu`";
+        $sql = "SELECT `id`, `date`, `architecte`, `realisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu`";
 
         $this->_stmt = $this->pdo->prepare($sql);
 

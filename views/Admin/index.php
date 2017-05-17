@@ -30,7 +30,7 @@
 
     <div class="wrapper-list revues">
 
-        <a href="" class="add-btn">+ Ajouter une revue</a>
+        <a href="../views/admin/add-form-revue.php" class="add-btn">+ Ajouter une revue</a>
 
         <table>
             <tr>
@@ -50,7 +50,7 @@
                 <td><?= $revue['date'] ?></td>
                 <td>
 
-                    <button><a href="<?='getPageActu/' . $revue['id']?>">Modifier</a></button>
+                    <button><a href="<?='getPageRevues/' . $revue['id']?>">Modifier</a></button>
                 </td>
                 <td>
                     <form method="post" action="deleteRevues">
@@ -68,13 +68,13 @@
     <div class="wrapper-list actu">
 
 
-        <a href="" class="add-btn">+ Ajouter un article</a>
+        <a href="../views/admin/add-form-article.php" class="add-btn">+ Ajouter un article</a>
 
         <table>
             <tr>
                 <th>Architecte</th>
                 <th>Réalisation</th>
-                <th>Date</th>
+                <th>Rubrique</th>
             </tr>
 
             <?php
@@ -85,8 +85,8 @@
 
                 <tr>
                     <td><?= $actu['architecte'] ?></td>
-                    <td><?= $actu['réalisations'] ?></td>
-                    <td><?= $actu['date'] ?></td>
+                    <td><?= $actu['realisations'] ?></td>
+                    <td><?= $actu['rubrique'] ?></td>
                     <td>
                         <button><a href="<?='getPageActu/' . $actu['id']?>">Modifier</a></button>
                     </td>
