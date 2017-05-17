@@ -3,6 +3,7 @@
 	font-family: 'Lato', sans-serif;
 
 
+
 	header {
 		height: 100px;
 		background: black;
@@ -52,7 +53,7 @@
 
 		text-align: center;
 		font-size: 22px;
-		margin-top: 200px;
+		margin-top: 100px;
 		font-family: 'Lato', sans-serif;
 
 		li {
@@ -72,9 +73,11 @@
 
 	.wrapper-list {
 
+		display:none;
+
 		padding: 2%;
 
-		h2{
+		h2, h3 {
 			font-size: 20px;
 			text-align: center;
 			color: #1a1a1a;
@@ -83,6 +86,10 @@
 			text-transform: none;
 			font-weight: bold;
 			letter-spacing: 2px;
+		}
+
+		h3 {
+			margin-top: 50px;
 		}
 
 		a.add-btn {
@@ -100,37 +107,123 @@
 	}
 
 	table {
-			margin-top: 50px;
-			width: 100%;
-			text-align: left;
+		margin-top: 50px;
+		width: 100%;
+		text-align: left;
 
-			tr:nth-child(2n+2) {
+		tr:nth-child(2n+2) {
 
-				background: lightgrey;
-			}
+			background: lightgrey;
+		}
 
-			tr:first-child {
+		tr:first-child {
 
+			text-align: center;
+		}
+
+		td {
+
+			padding: 1% .5%;
+			text-align: center;
+
+			button {
 				text-align: center;
-			}
-
-			td {
-
-				padding: 1% .5%;
-				text-align: center;
-
-				button {
-					text-align: center;
-				}
-
-			}
-
-			td:nth-child(2) {
-
-				text-align: left;
 			}
 
 		}
+
+		td:nth-child(2) {
+
+			text-align: left;
+		}
+	
+	}
+
+
+
+	.form-wrapper {
+
+		margin-top: 50px;
+		
+
+		form {
+
+			font-size: 18px;
+	
+
+			div {
+				width: 70%;
+				margin: 20px auto;
+			}
+
+			div:last-child {
+
+				margin-top: 50px;
+				
+				
+				text-align: center;
+
+				input {
+					background: #39C4D6;
+					width: 30%;
+					margin:auto;
+					padding: 15px;
+					color: white;
+				}
+				
+			}
+
+
+			label {
+				margin-right: 150px;
+				font-weight: bold;
+				display: inline-block;
+				width: 1px;
+			}
+
+			input {
+				background: lightgrey;
+				border: none;
+				padding: 10px 10px;
+				width: 70%;
+				font-size: 15px;
+			
+			}
+
+			input.img-upload {
+				background: none;
+			
+			}
+
+
+		}
+
+	}
+
+	.wrapper-detail {
+
+		text-align: center;
+		margin-top: 50px;
+		font-size: 18px;
+
+		li {
+			margin-bottom: 20px;
+		}
+
+		li:first-child {
+			font-weight: 700;
+		}
+	}
+
+	.tabs .active {
+
+		 color: #39C4D6;
+	}
+
+	.active {
+
+		display: block; 
+	}
 
 
 }

@@ -8,14 +8,14 @@ define('ROOT_URL', 'localhost/architecture.com/');
 $controller = 'controllers\\';  // On rentre dans le namespace controllers
 
 if($_GET['controller'] == "") {
-    $controller .= 'Revues';
+    $controller .= 'Index';
 } else {
     $controller .= $_GET['controller'];
 }
 
 if ($_GET['action'] == '')
 {
-    $action = 'getListRevues';
+    $action = 'getListActu';
 } else {
     $action = $_GET['action'];
 }

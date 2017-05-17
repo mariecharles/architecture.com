@@ -7,6 +7,7 @@ use models\AdminActuModel;
 use models\AdminRevueModel;
 use models\ArticleModel;
 use models\MagazineModel;
+use models\CommandeModel;
 use models\AdminGlobalListModel;
 
 
@@ -20,10 +21,22 @@ class Admin extends Controller
 
         $actu = $viewmodel->listActu();
 
+        $commandes = $viewmodel->listCommandes();
+
         $data['revues'] = $revues;
         $data['actu'] = $actu;
+        $data['commandes'] = $commandes;
 
         $this->render('admin/index.php', $data);
+
+    }
+
+
+    protected function getPageCommande() {
+
+        $viewmodel = new CommandeModel();
+
+        $this->render('admin/show-commande.php', $viewmodel->pageFromCommande());
 
     }
 
@@ -54,8 +67,6 @@ class Admin extends Controller
     }
 
 
-
-
     protected function deleteActu() {
 
         $viewmodel = new AdminActuModel();
@@ -67,6 +78,14 @@ class Admin extends Controller
     protected function deleteRevues() {
 
         $viewmodel = new AdminRevueModel();
+
+        $viewmodel->deleteElementAction();
+
+    }
+
+    protected function deleteCommande() {
+
+        $viewmodel = new CommandeModel();
 
         $viewmodel->deleteElementAction();
 

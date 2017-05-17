@@ -16,10 +16,17 @@ foreach ($viewmodel as $element):
 ?>
 
 <div>
-    <div><?= $element['num'] ?></div>
-    <div><?= $element['zone'] ?></div>
+    <a href="<?='actu/getPageActu/' . $element['id']?>"
     <div><?= $element['date'] ?></div>
+    <div><?= $element['architecte'] ?></div>
+    <div><?= $element['realisations'] ?></div>
+    <div><?= $element['rubrique'] ?></div>
+    <div><?= $element['lieu'] ?></div>
+    <div><?= $element['departement'] ?></div>
+    <div><?= $element['contenu'] ?></div>
     <img src="assets/img-content/<?= $element['img'] ?>" alt="">
+
+    </a>
 </div>
 
 <?php endforeach; ?>

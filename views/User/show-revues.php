@@ -16,7 +16,7 @@ foreach ($viewmodel as $element):
     ?>
 
     <div>
-        <a href="<?='revues/getPageMagazine/' . $element['id']?>">
+        <a href="<?='getPageMagazine/' . $element['id']?>">
         <div><?= $element['num'] ?></div>
         <div><?= $element['zone'] ?></div>
         <div><?= $element['date'] ?></div>
