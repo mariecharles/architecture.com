@@ -44,3 +44,4 @@ class Commande
             'choix_revue'     => $param['choix_revue']
         ));
     }
+}
