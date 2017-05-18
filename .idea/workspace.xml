@@ -2,113 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65fcf7b8-52a5-471b-800a-2d822ae002f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/_mainbackoffice.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/_news.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/cbc02c3669218aa6011757b90fdcc014478a87d6/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/cbc02c3669218aa6011757b90fdcc014478a87d6/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/cbc02c3669218aa6011757b90fdcc014478a87d6/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/cbc02c3669218aa6011757b90fdcc014478a87d6/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/cbc02c3669218aa6011757b90fdcc014478a87d6/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/_events.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/1531071ef06fedb0de41c21c25bf14ba0d4a7900/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/_events.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/17c0a9a804cb8aaf867410a2d9b85ab782f36463/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e079662b4d9490566e9c84e1da7987a81070ff1/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e079662b4d9490566e9c84e1da7987a81070ff1/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e079662b4d9490566e9c84e1da7987a81070ff1/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e079662b4d9490566e9c84e1da7987a81070ff1/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e079662b4d9490566e9c84e1da7987a81070ff1/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/_events.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3e8cf969546a4690967d78f479b620d2c6172e05/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3ffb4d0e38cd78116cf4c5a8b1378a3198b72142/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3ffb4d0e38cd78116cf4c5a8b1378a3198b72142/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3ffb4d0e38cd78116cf4c5a8b1378a3198b72142/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3ffb4d0e38cd78116cf4c5a8b1378a3198b72142/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3ffb4d0e38cd78116cf4c5a8b1378a3198b72142/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_events.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_indexabout.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_indexbestsellers.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_indexlastnews.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/406c465233d94844876723d992b5092821aec02b/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/43ff9d95806d93f319bbd4dcd5c43aef2d1b4a35/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/43ff9d95806d93f319bbd4dcd5c43aef2d1b4a35/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/43ff9d95806d93f319bbd4dcd5c43aef2d1b4a35/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/43ff9d95806d93f319bbd4dcd5c43aef2d1b4a35/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/43ff9d95806d93f319bbd4dcd5c43aef2d1b4a35/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/7534a22b4be350f4e310d473e33307fb88d8ec76/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/7534a22b4be350f4e310d473e33307fb88d8ec76/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/7534a22b4be350f4e310d473e33307fb88d8ec76/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/7534a22b4be350f4e310d473e33307fb88d8ec76/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/7534a22b4be350f4e310d473e33307fb88d8ec76/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/823b471ce06a0c6889648492b2cc5bd55ba7c1c5/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/823b471ce06a0c6889648492b2cc5bd55ba7c1c5/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/823b471ce06a0c6889648492b2cc5bd55ba7c1c5/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/823b471ce06a0c6889648492b2cc5bd55ba7c1c5/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/823b471ce06a0c6889648492b2cc5bd55ba7c1c5/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/8fe319b42a23c5f8c91d3e5b8642589948040839/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/8fe319b42a23c5f8c91d3e5b8642589948040839/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/8fe319b42a23c5f8c91d3e5b8642589948040839/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/8fe319b42a23c5f8c91d3e5b8642589948040839/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/8fe319b42a23c5f8c91d3e5b8642589948040839/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/abf3a74b3deb494ea30faa722eb773473cf746cf/_artistpage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/abf3a74b3deb494ea30faa722eb773473cf746cf/_contact.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/abf3a74b3deb494ea30faa722eb773473cf746cf/_homepage.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/abf3a74b3deb494ea30faa722eb773473cf746cf/_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/abf3a74b3deb494ea30faa722eb773473cf746cf/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b77c5000768e5fcde52a18ed76320b6bb28545cc/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b77c5000768e5fcde52a18ed76320b6bb28545cc/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b77c5000768e5fcde52a18ed76320b6bb28545cc/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b77c5000768e5fcde52a18ed76320b6bb28545cc/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b77c5000768e5fcde52a18ed76320b6bb28545cc/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/befcc3ee23e9a7362468793650521d9db45bce11/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/befcc3ee23e9a7362468793650521d9db45bce11/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/befcc3ee23e9a7362468793650521d9db45bce11/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/befcc3ee23e9a7362468793650521d9db45bce11/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/befcc3ee23e9a7362468793650521d9db45bce11/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/d6a5a4766324f9000abafbc72d6650a2fbaa335e/_news.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/d6a5a4766324f9000abafbc72d6650a2fbaa335e/screen.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/defcb394afde2412396ff2dea3c26c8ee08f9e7b/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/defcb394afde2412396ff2dea3c26c8ee08f9e7b/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/defcb394afde2412396ff2dea3c26c8ee08f9e7b/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/defcb394afde2412396ff2dea3c26c8ee08f9e7b/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/defcb394afde2412396ff2dea3c26c8ee08f9e7b/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/ff32b3ae37e8a6b7eabc62723dabdbb0926800f4/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/ff32b3ae37e8a6b7eabc62723dabdbb0926800f4/_fonts.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/ff32b3ae37e8a6b7eabc62723dabdbb0926800f4/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/ff32b3ae37e8a6b7eabc62723dabdbb0926800f4/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/ff32b3ae37e8a6b7eabc62723dabdbb0926800f4/_reset.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/scss/_mainbackoffice.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/_news.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/_news.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/screen.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8ebbd36000809e2346ac1538997930bc8ed367d1/screen.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/architecture.com.iml" afterPath="$PROJECT_DIR$/.idea/architecture.com.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/css/screen.css" afterPath="$PROJECT_DIR$/assets/styles/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/css/screen.css.map" afterPath="$PROJECT_DIR$/assets/styles/css/screen.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/scss/_commande.scss" afterPath="$PROJECT_DIR$/assets/styles/scss/_commande.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/scss/_news.scss" afterPath="$PROJECT_DIR$/assets/styles/scss/_news.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/scss/screen.scss" afterPath="$PROJECT_DIR$/assets/styles/scss/screen.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/admin.php" afterPath="$PROJECT_DIR$/controllers/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ActuModel.php" afterPath="$PROJECT_DIR$/models/ActuModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/AdminGlobalListModel.php" afterPath="$PROJECT_DIR$/models/AdminGlobalListModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/CommandeModel.php" afterPath="$PROJECT_DIR$/models/CommandeModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/add-form-article.php" afterPath="$PROJECT_DIR$/views/Admin/add-form-article.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/add-form-revue.php" afterPath="$PROJECT_DIR$/views/Admin/add-form-revue.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/edit-form-article.php" afterPath="$PROJECT_DIR$/views/Admin/edit-form-article.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/edit-form-revue.php" afterPath="$PROJECT_DIR$/views/Admin/edit-form-revue.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/index.php" afterPath="$PROJECT_DIR$/views/Admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Admin/show-commande.php" afterPath="$PROJECT_DIR$/views/Admin/show-commande.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/User/article-detail.php" afterPath="$PROJECT_DIR$/views/User/article-detail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/User/index.php" afterPath="$PROJECT_DIR$/views/User/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/User/show-actu.php" afterPath="$PROJECT_DIR$/views/User/show-actu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/User/show-revues.php" afterPath="$PROJECT_DIR$/views/User/show-revues.php" />
     </list>
     <ignored path="architecture.com.iws" />
@@ -130,43 +45,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/admin.php">
+      <file leaf-file-name="edit-form-revue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Admin/edit-form-revue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding>
-                <element signature="e#30#53#0#PHP" expanded="true" />
+                <marker date="1495111594669" expanded="true" signature="363:391" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/views/Admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1495111601802" expanded="true" signature="1570:1755" ph="..." />
+                <marker date="1495111601802" expanded="true" signature="1821:1856" ph="..." />
+                <marker date="1495111601802" expanded="true" signature="2014:2059" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-abonnement.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Admin/show-abonnement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-form-revue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Admin/add-form-revue.php">
+      <file leaf-file-name="show-commande.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Admin/show-commande.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-form-article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Admin/add-form-article.php">
+      <file leaf-file-name="magazine-detail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/User/magazine-detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/User/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -184,53 +123,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="article-detail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/User/article-detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="51" column="81" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="show-actu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/User/show-actu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="493">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/User/index.php">
+      <file leaf-file-name="headeradmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Admin/headeradmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show-revues.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/User/show-revues.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActuModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/ActuModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding>
-                <marker date="1495025521074" expanded="true" signature="131:238" ph="SELECT `id`,... actu" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/actu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -244,13 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/Show/page-actu.php" />
-        <option value="$PROJECT_DIR$/views/Show/vv.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/controllers/article" />
-        <option value="$PROJECT_DIR$/controllers/article.php" />
-        <option value="$PROJECT_DIR$/models/MagazineModel" />
-        <option value="$PROJECT_DIR$/views/Home/index.php" />
         <option value="$PROJECT_DIR$/views/article-detail.php" />
         <option value="$PROJECT_DIR$/views/magazine-detail.php" />
         <option value="$PROJECT_DIR$/controllers/Article.php" />
@@ -271,29 +181,36 @@
         <option value="$PROJECT_DIR$/models/AdminGestionModel.php" />
         <option value="$PROJECT_DIR$/models/AdminRevuesModel.php" />
         <option value="$PROJECT_DIR$/views/Admin/eddit-form.php" />
-        <option value="$PROJECT_DIR$/views/User/show-actu.php" />
         <option value="$PROJECT_DIR$/CONFIG.php" />
         <option value="$PROJECT_DIR$/views/Admin/eddit-form-article.php" />
-        <option value="$PROJECT_DIR$/models/ActuModel.php" />
         <option value="$PROJECT_DIR$/models/ArticleModel.php" />
         <option value="$PROJECT_DIR$/views/Admin/edit-form-revues.php" />
         <option value="$PROJECT_DIR$/views/Admin/d.php" />
         <option value="$PROJECT_DIR$/models/AdminActuModel.php" />
         <option value="$PROJECT_DIR$/models/AdminRevueModel.php" />
         <option value="$PROJECT_DIR$/assets/styles/css/screen.css" />
-        <option value="$PROJECT_DIR$/models/AdminGlobalListModel.php" />
-        <option value="$PROJECT_DIR$/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/models/CommandeModel.php" />
         <option value="$PROJECT_DIR$/assets/js/backoffice.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/views/Admin/show-commande.php" />
-        <option value="$PROJECT_DIR$/views/Admin/index.php" />
-        <option value="$PROJECT_DIR$/views/Admin/edit-form-revue.php" />
-        <option value="$PROJECT_DIR$/views/Admin/edit-form-article.php" />
-        <option value="$PROJECT_DIR$/views/Admin/add-form-revue.php" />
-        <option value="$PROJECT_DIR$/views/Admin/add-form-article.php" />
         <option value="$PROJECT_DIR$/controllers/index.php" />
+        <option value="$PROJECT_DIR$/models/ActuModel.php" />
+        <option value="$PROJECT_DIR$/views/User/commande.php" />
+        <option value="$PROJECT_DIR$/models/AdminGlobalListModel.php" />
+        <option value="$PROJECT_DIR$/views/Admin/show-abonnement" />
+        <option value="$PROJECT_DIR$/controllers/admin.php" />
+        <option value="$PROJECT_DIR$/models/CommandeModel.php" />
+        <option value="$PROJECT_DIR$/views/User/contact.php" />
+        <option value="$PROJECT_DIR$/views/User/confirm.php" />
+        <option value="$PROJECT_DIR$/views/User/article-detail.php" />
+        <option value="$PROJECT_DIR$/views/User/show-actu.php" />
         <option value="$PROJECT_DIR$/views/User/show-revues.php" />
+        <option value="$PROJECT_DIR$/views/Admin/headeradmin.php" />
+        <option value="$PROJECT_DIR$/views/Admin/add-form-article.php" />
+        <option value="$PROJECT_DIR$/views/Admin/add-form-revue.php" />
+        <option value="$PROJECT_DIR$/views/Admin/edit-form-article.php" />
+        <option value="$PROJECT_DIR$/views/Admin/edit-form-revue.php" />
+        <option value="$PROJECT_DIR$/views/Admin/index.php" />
+        <option value="$PROJECT_DIR$/views/Admin/show-abonnement.php" />
+        <option value="$PROJECT_DIR$/views/Admin/show-commande.php" />
         <option value="$PROJECT_DIR$/views/User/index.php" />
       </list>
     </option>
@@ -384,10 +301,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,6 +404,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\architecture.com\views\Admin" />
+      <recent name="C:\MAMP\htdocs\architecture.com\views\User" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -558,12 +477,12 @@
       <workItem from="1494936249591" duration="19373000" />
       <workItem from="1494964034336" duration="21782000" />
       <workItem from="1495008610927" duration="7434000" />
-      <workItem from="1495018463137" duration="36057000" />
+      <workItem from="1495018463137" duration="60188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122608000" />
+    <option name="totallyTimeSpent" value="146739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -628,11 +547,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/Show/show-actu.php" />
-    <entry file="file://$PROJECT_DIR$/views/Show/show-revues.php" />
-    <entry file="file://$PROJECT_DIR$/views/Admin/magazine-detail.php" />
-    <entry file="file://$PROJECT_DIR$/views/Admin/show-revues.php" />
-    <entry file="file://$PROJECT_DIR$/views/Admin/show-actu.php" />
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/../Web1KandT/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,24 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/RevuesModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <marker date="1495018319410" expanded="true" signature="135:192" ph="SELECT `id`,... magazine" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/scss/_mainbackoffice.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -786,28 +682,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/ECOLE/HTML CSS/Lidouillet/page-hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5488">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/backoffice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="391">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/User/article-detail.php">
+    <entry file="file://$PROJECT_DIR$/models/ActuModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/ArticleModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1495025531303" expanded="true" signature="138:262" ph="SELECT `id`,... actu" />
+            <marker date="1495095126596" expanded="true" signature="131:245" ph="SELECT `id`,... actu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/AdminActuModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="72" column="53" selection-start-line="70" selection-start-column="8" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#26#44#0#PHP" expanded="true" />
+            <marker date="1495032634902" expanded="true" signature="157:198" ph="DELETE FROM " />
+            <marker date="1495032634902" expanded="true" signature="568:886" ph="UPDATE `actu... " />
+            <marker date="1495032634902" expanded="true" signature="1783:2009" ph="INSERT INTO actu" />
           </folding>
         </state>
       </provider>
@@ -827,12 +760,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/AdminGlobalListModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <marker date="1495054489322" expanded="true" signature="144:201" ph="SELECT `id`,... magazine" />
-            <marker date="1495054489322" expanded="true" signature="378:485" ph="SELECT `id`,... actu" />
-            <marker date="1495054489322" expanded="true" signature="669:717" ph="SELECT `id`,... commande" />
+            <marker date="1495098151738" expanded="true" signature="144:201" ph="SELECT `id`,... magazine" />
+            <marker date="1495098151738" expanded="true" signature="378:485" ph="SELECT `id`,... actu" />
+            <marker date="1495098151738" expanded="true" signature="669:717" ph="SELECT `id`,... commande" />
+            <marker date="1495098151738" expanded="true" signature="902:947" ph="SELECT `id`,... abonnement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="e#30#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,141 +791,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/AdminActuModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#44#0#PHP" expanded="true" />
-            <marker date="1495032634902" expanded="true" signature="157:198" ph="DELETE FROM " />
-            <marker date="1495032634902" expanded="true" signature="568:886" ph="UPDATE `actu... " />
-            <marker date="1495032634902" expanded="true" signature="1783:2009" ph="INSERT INTO actu" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/CommandeModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
-            <marker date="1495058052451" expanded="true" signature="143:330" ph="SELECT `id`,... commande" />
-            <marker date="1495058052451" expanded="true" signature="577:622" ph="DELETE FROM " />
+            <marker date="1495102983097" expanded="true" signature="143:330" ph="SELECT `id`,... commande" />
+            <marker date="1495102983097" expanded="true" signature="575:759" ph="SELECT `id`,... abonnement" />
+            <marker date="1495102983097" expanded="true" signature="1006:1051" ph="DELETE FROM " />
+            <marker date="1495102983097" expanded="true" signature="1423:1804" ph="INSERT INTO commande" />
+            <marker date="1495102983097" expanded="true" signature="2999:3349" ph="INSERT INTO abonnement" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ECOLE/HTML CSS/Lidouillet/page-hotel.html">
+    <entry file="file://$PROJECT_DIR$/models/ArticleModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5488">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1495025531303" expanded="true" signature="138:262" ph="SELECT `id`,... actu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/User/confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/backoffice.js">
+    <entry file="file://$PROJECT_DIR$/views/User/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/revues.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/User/magazine-detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/show-commande.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <marker date="1495064220977" expanded="true" signature="2038:2223" ph="..." />
-            <marker date="1495064220977" expanded="true" signature="2289:2324" ph="..." />
-            <marker date="1495064220977" expanded="true" signature="2482:2527" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/edit-form-revue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <marker date="1495064224977" expanded="true" signature="830:858" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/edit-form-article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/add-form-revue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Admin/add-form-article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/ActuModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <marker date="1495025521074" expanded="true" signature="131:238" ph="SELECT `id`,... actu" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#30#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,6 +843,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/User/show-revues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/RevuesModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1495018319410" expanded="true" signature="135:192" ph="SELECT `id`,... magazine" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/User/commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/add-form-article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/add-form-revue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/edit-form-article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/edit-form-revue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <marker date="1495111594669" expanded="true" signature="363:391" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/headeradmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/show-abonnement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/show-commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1495111601802" expanded="true" signature="1570:1755" ph="..." />
+            <marker date="1495111601802" expanded="true" signature="1821:1856" ph="..." />
+            <marker date="1495111601802" expanded="true" signature="2014:2059" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/User/magazine-detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/User/article-detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="51" column="81" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -1005,24 +971,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/User/show-actu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/User/show-revues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/User/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="241">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
           <folding />
         </state>
       </provider>

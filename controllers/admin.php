@@ -23,9 +23,12 @@ class Admin extends Controller
 
         $commandes = $viewmodel->listCommandes();
 
+        $abonnement = $viewmodel->listAbonnement();
+
         $data['revues'] = $revues;
         $data['actu'] = $actu;
         $data['commandes'] = $commandes;
+        $data['abonnement'] = $abonnement;
 
         $this->render('admin/index.php', $data);
 
@@ -37,6 +40,14 @@ class Admin extends Controller
         $viewmodel = new CommandeModel();
 
         $this->render('admin/show-commande.php', $viewmodel->pageFromCommande());
+
+    }
+
+    protected function getPageAbonnement() {
+
+        $viewmodel = new CommandeModel();
+
+        $this->render('admin/show-abonnement.php', $viewmodel->pageFromAbonnement());
 
     }
 
@@ -125,6 +136,22 @@ class Admin extends Controller
         $viewmodel = new AdminRevueModel();
 
         $viewmodel->addElementAction();
+
+    }
+
+    protected function addCommandes() {
+
+        $viewmodel = new CommandeModel();
+
+        $viewmodel->addElementAction();
+
+    }
+
+    protected function addAbonnement() {
+
+        $viewmodel = new CommandeModel();
+
+        $viewmodel->addElementAction2();
 
     }
 

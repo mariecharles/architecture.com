@@ -45,5 +45,18 @@ class AdminGlobalListModel extends Model {
 
     }
 
+    public function listAbonnement() {
+
+        $sql = "SELECT `id`, `nom`, `duree` FROM `abonnement`";
+
+        $this->_stmt = $this->pdo->prepare($sql);
+
+        $datarow = $this->setResult();
+
+
+        return $datarow;
+
+    }
+
 
 }

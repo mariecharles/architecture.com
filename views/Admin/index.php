@@ -1,20 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/architecture.com/assets/styles/css/screen.css">
-    <title>larchitecture.com - Interface Admin</title>
-</head>
+<?php include 'headeradmin.php' ?>
+
 <body id="mainbackoffice">
 
     <header>
 
         <p>Bonjour <span>François</span></p>
-        <a href="../revues">Retourner sur le site</a>
+        <a href="../index">Retourner sur le site</a>
 
     </header>
 
@@ -146,25 +137,25 @@
             <tr>
                 <th>Commande n°</th>
                 <th>Nom</th>
-                <th>Choix de la revue</th>
+                <th>Durée de l'abonnement</th>
             </tr>
 
             <?php
 
-            foreach ($viewmodel['commandes'] as $commande):
+            foreach ($viewmodel['abonnement'] as $element):
 
                 ?>
 
                 <tr>
-                    <td><?= $commande['id'] ?></td>
-                    <td>Mme/M. <?= $commande['nom'] ?></td>
-                    <td><?= $commande['choixrevue'] ?></td>
+                    <td><?= $element['id'] ?></td>
+                    <td>Mme/M. <?= $element['nom'] ?></td>
+                    <td><?= $element['duree'] ?></td>
                     <td>
-                        <button><a href="<?='getPageActu/' . $commande['id']?>">Voir détail</a></button>
+                        <button><a href="<?='getPageAbonnement/' . $element['id']?>">Voir détail</a></button>
                     </td>
                     <td>
                         <form method="post" action="deleteCommande">
-                            <input type="hidden" value="<?= $commande['id']?>" name ="id">
+                            <input type="hidden" value="<?= $element['id']?>" name ="id">
                             <input type="submit" value="Ok/traité">
                         </form>
                     </td>
