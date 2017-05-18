@@ -22,3 +22,5 @@
         <p>Groupe SOFRE&amp;COM Société Française d'Edition et de Communication 9/11 rue Jacquard - 93315 Le Pré Saint Gervais cedex - France</p>
     </div>
 </footer>
+
+<script src="../assets/js/main.js"></script>

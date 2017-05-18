@@ -62,7 +62,7 @@ div.projets {
 }
 h1.nom {
   font-size: 45px;
-
+  font-family: 'big_johnregular';
 }
 @keyframes slidy {
   0% {
@@ -99,6 +99,9 @@ div.title {
   text-align: center;
   margin-top: 5%;
 }
+.description p{
+  font-family: 'Lato';
+}
 div.qui-sommes-nous-architecture {
   width: 70%;
   margin-left: 8%;
@@ -120,6 +123,7 @@ h3 {
   font-size: 20px;
   margin: auto;
   color: #000;
+  font-family: 'big_johnregular';
 }
 /*----------------APPROCHE REGIONALE -----------*/
 
@@ -179,9 +183,12 @@ p.description {
   width:85%;
   margin-top: 2%;
   float: left;
+  font-family: 'Lato';
 }
 h1.actualite-region {
   margin-top: 5%;
+  font-size: 24px;
+  font-family: 'big_johnregular';
 }
 
 /*--------------- approche-regionale 2 ------------*/
@@ -269,6 +276,7 @@ div.presence {
     font-size: 14px;
     text-align: center;
     width: 95%;
+    line-height: 130%;
     float: left;
     position: static;
 
@@ -373,11 +381,13 @@ div.presence {
     z-index: -1;
     display: block;
     margin: auto;
+    font-family: 'Lato';
   }
   p.description {
     font-size: 13px;
     width: 100%;
     position: static;
+    font-family: 'Lato';
   }
   p.description-3 {
     font-size: 15px;

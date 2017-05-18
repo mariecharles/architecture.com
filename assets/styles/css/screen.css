@@ -130,12 +130,12 @@ header nav {
     float: right;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    font-size: 15px; }
     header nav ul li {
       list-style: none;
       float: left;
       text-align: right;
-      font-family: 'Lato';
       color: white; }
       header nav ul li span {
         color: #39C4D6; }
@@ -301,202 +301,216 @@ footer {
       #newsletter main section:nth-child(3) h2, #newsletter main section:nth-child(5) h2 {
         margin: 3% 0% 4%; } }
 
-#achat .confirm-wrapper {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 100px; }
-#achat .head-filters {
-  margin-top: 5%;
-  text-align: center;
-  margin-bottom: 4%;
-  display: inline-flex;
-  margin-left: 36%; }
-  #achat .head-filters span {
-    font-size: 24px;
-    cursor: pointer; }
-  @media screen and (max-width: 960px) {
-    #achat .head-filters {
-      margin-left: 32%; } }
-  @media screen and (max-width: 800px) {
-    #achat .head-filters {
-      margin-left: 28%; }
+#achat {
+  margin: 0; }
+  #achat .head-filters {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 4%;
+    display: inline-flex;
+    margin-left: 15%;
+    width: 64%;
+    border: 2px solid black;
+    padding: 2%; }
+    #achat .head-filters span {
+      font-size: 24px;
+      cursor: pointer;
+      font-family: 'big_johnregular'; }
+    @media screen and (max-width: 960px) {
+      #achat .head-filters {
+        margin-left: 20%; } }
+    @media screen and (max-width: 800px) {
       #achat .head-filters span {
         font-size: 20px; } }
-  @media screen and (max-width: 670px) {
-    #achat .head-filters {
-      margin-left: 22%; } }
-#achat .active {
-  display: block; }
-#achat form {
-  display: none; }
-#achat #commande form, #achat #abonnement form {
-  width: 84%;
-  margin: 0 auto;
-  margin-bottom: 10%; }
-  #achat #commande form input, #achat #abonnement form input {
-    border: none;
-    border-bottom: 1px solid #39C4D6;
-    width: 50%; }
-  #achat #commande form div, #achat #abonnement form div {
-    width: 49%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin-bottom: 4%; }
-    #achat #commande form div label, #achat #abonnement form div label {
-      font-size: 20px;
-      text-transform: uppercase;
-      text-align: right;
-      width: 44%;
-      font-family: 'Lato';
-      font-weight: 400; }
-  #achat #commande form div:first-child, #achat #commande form div:nth-child(5), #achat #commande form div:nth-child(10), #achat #abonnement form div:first-child, #achat #abonnement form div:nth-child(5), #achat #abonnement form div:nth-child(10) {
-    float: left;
-    margin-right: 2%; }
-  #achat #commande form select, #achat #abonnement form select {
-    height: 50px;
-    margin-top: 4%;
-    width: 38%;
-    margin-left: 30px; }
-  #achat #commande form optgroup, #achat #abonnement form optgroup {
-    text-align: center;
-    border: 1px solid; }
-  #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
-    width: 56%;
+    @media screen and (max-width: 670px) {
+      #achat .head-filters {
+        margin-left: 8%;
+        width: 80%; }
+        #achat .head-filters span {
+          font-size: 16px; } }
+    #achat .head-filters .filter-commande {
+      width: 60%; }
+    #achat .head-filters .filter-abonnement {
+      width: 60%; }
+  #achat .ok {
+    background: #39C4D6;
+    padding: 2px; }
+  #achat .active {
     display: block; }
-  #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(13) {
-    margin-left: 75px;
-    float: left;
-    margin-bottom: 3%; }
-  #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
+  #achat form {
+    display: none; }
+  #achat #commande form, #achat #abonnement form {
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 10%; }
+    #achat #commande form input, #achat #abonnement form input {
+      border: none;
+      border-bottom: 1px solid #39C4D6;
+      width: 50%; }
+    #achat #commande form div, #achat #abonnement form div {
+      width: 49%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      margin-bottom: 4%; }
+      #achat #commande form div label, #achat #abonnement form div label {
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: right;
+        width: 44%;
+        font-weight: 400; }
+    #achat #commande form div:first-child, #achat #commande form div:nth-child(5), #achat #commande form div:nth-child(10), #achat #abonnement form div:first-child, #achat #abonnement form div:nth-child(5), #achat #abonnement form div:nth-child(10) {
+      float: left;
+      margin-right: 2%; }
+    #achat #commande form select, #achat #abonnement form select {
+      height: 50px;
+      margin-top: 4%;
+      width: 38%;
+      margin-left: 30px; }
+    #achat #commande form optgroup, #achat #abonnement form optgroup {
+      text-align: center;
+      border: 1px solid; }
+    #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
+      width: 56%;
+      display: block; }
+    #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(13) {
+      margin-left: 75px;
+      float: left;
+      margin-bottom: 3%; }
+    #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
+      width: 20%;
+      margin-top: 8%; }
+      #achat #commande form div:nth-child(14) input, #achat #abonnement form div:nth-child(14) input {
+        width: 36%; }
+    #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
+      display: inline-block; }
+      #achat #commande form div:nth-child(15) button, #achat #abonnement form div:nth-child(15) button {
+        margin-top: 3%;
+        border: 1px solid #39C4D6;
+        width: 40%;
+        background: white;
+        height: 40px; }
+    #achat #commande form .send, #achat #abonnement form .send {
+      height: 40px;
+      margin: 1% 2% 0% 4%;
+      width: 23%;
+      float: right;
+      background: #39C4D6; }
+  @media screen and (max-width: 960px) {
+    #achat #commande form div label, #achat #abonnement form div label {
+      width: 56%; }
+    #achat #commande form div input, #achat #abonnement form div input {
+      width: 38%; }
+    #achat #commande form div select, #achat #abonnement form div select {
+      margin-left: -19px; }
+    #achat #commande form div:nth-child(10), #achat #abonnement form div:nth-child(10) {
+      float: none; }
+    #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
+      width: 72%;
+      display: flex; }
+      #achat #commande form div:nth-child(12) label, #achat #commande form div:nth-child(13) label, #achat #abonnement form div:nth-child(12) label, #achat #abonnement form div:nth-child(13) label {
+        margin-right: 10%; }
+    #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(13) {
+      margin: 0 0 6% 0%; }
+    #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
+      width: 49%;
+      margin-bottom: 8%; }
+    #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
+      display: inline-block;
+      width: 69%;
+      margin-left: 26%; }
+    #achat #commande form .send, #achat #abonnement form .send {
+      margin: 0% 0% 0% 41%;
+      width: 26%;
+      float: none; } }
+  @media screen and (max-width: 710px) {
+    #achat #commande form div, #achat #abonnement form div {
+      width: 76%; }
+      #achat #commande form div label, #achat #abonnement form div label {
+        width: 56%;
+        font-size: 16px; }
+      #achat #commande form div input, #achat #abonnement form div input {
+        width: 38%; }
+      #achat #commande form div select, #achat #abonnement form div select {
+        width: 44%;
+        margin-left: 13px; }
+    #achat #commande form div:first-child, #achat #commande form div:nth-child(5), #achat #abonnement form div:first-child, #achat #abonnement form div:nth-child(5) {
+      float: none; }
+    #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
+      width: 81%; }
+      #achat #commande form div:nth-child(12) label, #achat #commande form div:nth-child(13) label, #achat #abonnement form div:nth-child(12) label, #achat #abonnement form div:nth-child(13) label {
+        margin-right: 13px; }
+    #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
+      width: 73%; }
+    #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
+      display: block;
+      width: 62%;
+      margin-left: 40%; } }
+  @media screen and (max-width: 710px) and (max-width: 715px) {
+    #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
+      width: 70%;
+      margin-left: 30%; } }
+  @media screen and (max-width: 710px) {
+    #achat #commande .send, #achat #abonnement .send {
+      margin: 0% 0% 0% 31%;
+      width: 47%;
+      float: none; } }
+  @media screen and (max-width: 610px) {
+    #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
+      margin-left: 18%; }
+      #achat #commande form div:nth-child(15) button, #achat #abonnement form div:nth-child(15) button {
+        width: 49%; }
+    #achat #commande form .send, #achat #abonnement form .send {
+      margin: 0% 0% 0% 27%;
+      width: 41%; } }
+  #achat #abonnement form div:nth-child(12) {
+    float: left; }
+  #achat #abonnement form div:nth-child(13) {
+    margin-left: 113px;
     width: 20%;
-    margin-top: 8%; }
-    #achat #commande form div:nth-child(14) input, #achat #abonnement form div:nth-child(14) input {
+    margin-top: 4%; }
+    #achat #abonnement form div:nth-child(13) input {
       width: 36%; }
-  #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
-    display: inline-block; }
-    #achat #commande form div:nth-child(15) button, #achat #abonnement form div:nth-child(15) button {
+    #achat #abonnement form div:nth-child(13) label {
+      margin-right: 29px; }
+  #achat #abonnement form div:nth-child(14) {
+    display: inline-block;
+    width: 50%;
+    margin-top: 0; }
+    #achat #abonnement form div:nth-child(14) button {
       margin-top: 3%;
       border: 1px solid #39C4D6;
       width: 40%;
       background: white;
       height: 40px; }
-  #achat #commande form .send, #achat #abonnement form .send {
-    height: 40px;
-    margin: 1% 2% 0% 4%;
-    width: 23%;
-    float: right;
-    background: #39C4D6; }
-@media screen and (max-width: 960px) {
-  #achat #commande form div label, #achat #abonnement form div label {
-    width: 56%; }
-  #achat #commande form div input, #achat #abonnement form div input {
-    width: 38%; }
-  #achat #commande form div select, #achat #abonnement form div select {
-    margin-left: -19px; }
-  #achat #commande form div:nth-child(10), #achat #abonnement form div:nth-child(10) {
-    float: none; }
-  #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
-    width: 72%;
-    display: flex; }
-    #achat #commande form div:nth-child(12) label, #achat #commande form div:nth-child(13) label, #achat #abonnement form div:nth-child(12) label, #achat #abonnement form div:nth-child(13) label {
-      margin-right: 10%; }
-  #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(13) {
-    margin: 0 0 6% 0%; }
-  #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
-    width: 49%;
-    margin-bottom: 8%; }
-  #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
-    display: inline-block;
-    width: 69%;
-    margin-left: 26%; }
-  #achat #commande form .send, #achat #abonnement form .send {
-    margin: 0% 0% 0% 41%;
-    width: 26%;
-    float: none; } }
-@media screen and (max-width: 710px) {
-  #achat #commande form div, #achat #abonnement form div {
-    width: 76%; }
-    #achat #commande form div label, #achat #abonnement form div label {
-      width: 56%;
-      font-size: 16px; }
-    #achat #commande form div input, #achat #abonnement form div input {
-      width: 38%; }
-    #achat #commande form div select, #achat #abonnement form div select {
-      width: 44%;
-      margin-left: 13px; }
-  #achat #commande form div:first-child, #achat #commande form div:nth-child(5), #achat #abonnement form div:first-child, #achat #abonnement form div:nth-child(5) {
-    float: none; }
-  #achat #commande form div:nth-child(12), #achat #commande form div:nth-child(13), #achat #abonnement form div:nth-child(12), #achat #abonnement form div:nth-child(13) {
-    width: 81%; }
-    #achat #commande form div:nth-child(12) label, #achat #commande form div:nth-child(13) label, #achat #abonnement form div:nth-child(12) label, #achat #abonnement form div:nth-child(13) label {
-      margin-right: 13px; }
-  #achat #commande form div:nth-child(14), #achat #abonnement form div:nth-child(14) {
-    width: 73%; }
-  #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
-    display: block;
-    width: 62%;
-    margin-left: 40%; }
-  #achat #commande .send, #achat #abonnement .send {
-    margin: 0% 0% 0% 31%;
-    width: 47%;
-    float: none; } }
-@media screen and (max-width: 610px) {
-  #achat #commande form div:nth-child(15), #achat #abonnement form div:nth-child(15) {
-    margin-left: 18%; }
-    #achat #commande form div:nth-child(15) button, #achat #abonnement form div:nth-child(15) button {
-      width: 49%; }
-  #achat #commande form .send, #achat #abonnement form .send {
-    margin: 0% 0% 0% 27%;
-    width: 41%; } }
-#achat #abonnement form div:nth-child(12) {
-  float: left; }
-#achat #abonnement form div:nth-child(13) {
-  margin-left: 113px;
-  width: 20%;
-  margin-top: 4%; }
-  #achat #abonnement form div:nth-child(13) input {
-    width: 36%; }
-  #achat #abonnement form div:nth-child(13) label {
-    margin-right: 29px; }
-#achat #abonnement form div:nth-child(14) {
-  display: inline-block;
-  width: 50%;
-  margin-top: 0; }
-  #achat #abonnement form div:nth-child(14) button {
-    margin-top: 3%;
-    border: 1px solid #39C4D6;
-    width: 40%;
-    background: white;
-    height: 40px; }
-    #achat #abonnement form div:nth-child(14) button input {
-      width: 36%; }
-@media screen and (max-width: 960px) {
-  #achat #abonnement form div:nth-child(12) {
-    float: none; }
-  #achat #abonnement form div:nth-child(13) {
-    width: 21%;
-    margin-bottom: 8%; }
-  #achat #abonnement form div:nth-child(14) {
-    display: inline-block;
-    width: 68%;
-    margin-top: 0;
-    margin-left: 26%; } }
-@media screen and (max-width: 710px) {
-  #achat #abonnement form div:nth-child(13) {
-    width: 28%;
-    margin-left: 27%; }
-    #achat #abonnement form div:nth-child(13) label {
-      margin-right: 19px; } }
-@media screen and (max-width: 610px) {
-  #achat #abonnement form div:nth-child(14) {
-    margin-left: 18%; }
-    #achat #abonnement form div:nth-child(14) button {
-      width: 47%; }
-  #achat #abonnement form .send {
-    margin: 0% 0% 0% 31%;
-    width: 41%; } }
+      #achat #abonnement form div:nth-child(14) button input {
+        width: 36%; }
+  @media screen and (max-width: 960px) {
+    #achat #abonnement form div:nth-child(12) {
+      float: none; }
+    #achat #abonnement form div:nth-child(13) {
+      width: 21%;
+      margin-bottom: 8%; }
+    #achat #abonnement form div:nth-child(14) {
+      display: inline-block;
+      width: 68%;
+      margin-top: 0;
+      margin-left: 26%; } }
+  @media screen and (max-width: 710px) {
+    #achat #abonnement form div:nth-child(13) {
+      width: 28%;
+      margin-left: 27%; }
+      #achat #abonnement form div:nth-child(13) label {
+        margin-right: 19px; } }
+  @media screen and (max-width: 610px) {
+    #achat #abonnement form div:nth-child(14) {
+      margin-left: 18%; }
+      #achat #abonnement form div:nth-child(14) button {
+        width: 100%; }
+    #achat #abonnement form .send {
+      margin: 0% 0% 0% 31%;
+      width: 41%; } }
 
 #actualite {
   /*---------------ARTICLE----------------*/
@@ -614,8 +628,6 @@ footer {
   font-family: 'big_johnregular';
   letter-spacing: 7px;
   text-transform: uppercase; }
-#revue main {
-  width: 100%; }
 #revue a {
   float: left;
   margin-right: 3%;
@@ -693,7 +705,8 @@ footer {
     height: 100px;
     text-align: center; }
   #accueil h1.nom {
-    font-size: 45px; }
+    font-size: 45px;
+    font-family: 'big_johnregular'; }
 @keyframes slidy {
   0% {
     left: 0%; }
@@ -716,6 +729,8 @@ footer {
   #accueil div.title {
     text-align: center;
     margin-top: 5%; }
+  #accueil .description p {
+    font-family: 'Lato'; }
   #accueil div.qui-sommes-nous-architecture {
     width: 70%;
     margin-left: 8%;
@@ -732,7 +747,8 @@ footer {
   #accueil h3 {
     font-size: 20px;
     margin: auto;
-    color: #000; }
+    color: #000;
+    font-family: 'big_johnregular'; }
   #accueil div.background {
     background-color: #f1f1f1;
     height: 100%; }
@@ -779,9 +795,12 @@ footer {
     font-size: 14px;
     width: 85%;
     margin-top: 2%;
-    float: left; }
+    float: left;
+    font-family: 'Lato'; }
   #accueil h1.actualite-region {
-    margin-top: 5%; }
+    margin-top: 5%;
+    font-size: 24px;
+    font-family: 'big_johnregular'; }
   #accueil div.approche-regionale-2 {
     margin-top: 5%;
     margin-left: 10%;
@@ -846,6 +865,7 @@ footer {
       font-size: 14px;
       text-align: center;
       width: 95%;
+      line-height: 130%;
       float: left;
       position: static; }
     #accueil article.title {
@@ -919,11 +939,13 @@ footer {
     #accueil div.background {
       z-index: -1;
       display: block;
-      margin: auto; }
+      margin: auto;
+      font-family: 'Lato'; }
     #accueil p.description {
       font-size: 13px;
       width: 100%;
-      position: static; }
+      position: static;
+      font-family: 'Lato'; }
     #accueil p.description-3 {
       font-size: 15px;
       width: 100%; }
@@ -1061,6 +1083,13 @@ footer {
     @media screen and (max-width: 1000px) {
       #contact button {
         display: none; } }
+
+iframe {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 100vh;
+  margin-bottom: 6%; }
 
 #mainbackoffice {
   font-family: 'Lato', sans-serif; }

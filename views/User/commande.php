@@ -4,11 +4,10 @@
 
 <div id="filters">
     <div class="head-filters">
-        <span class="filter-commande active">commande/</span>
-        <span class="filter-abonnement ">abonnement</span>
+        <span class="filter-commande ok">commande</span>
+        <span class="filter-abonnement">abonnement</span>
     </div>
 </div>
-
 
 <main id="commande">
     <form action="../../admin/addCommandes" method="post" class="active">
@@ -181,22 +180,31 @@
 
 </main>
 
-<?php include 'footer.php' ?>
+<?php include 'footer.php' ?>.
 
 </body>
 
 <script>
     var link = document.querySelectorAll('.head-filters span');
     var form = document.querySelectorAll('form');
+    var filtercommande = document.querySelector('.filter-commande');
+    var filterabonnement = document.querySelector('.filter-abonnement');
+
 
     link[0].addEventListener('click', function () {
+        console.log(filtercommande, form[1])
+
         form[0].classList.add('active');
         form[1].classList.remove('active');
+        filtercommande.classList.add('ok');
+        filterabonnement.classList.remove('ok');
     });
 
     link[1].addEventListener('click', function () {
         form[1].classList.add('active');
         form[0].classList.remove('active');
+        filterabonnement.classList.add('ok');
+        filtercommande.classList.remove('ok');
     });
 
 </script>
