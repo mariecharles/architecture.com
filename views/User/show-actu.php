@@ -1,32 +1,40 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>Panel admin</h1>
-<?php
+<?php include 'headeruser.php' ?>
 
-foreach ($viewmodel as $element):
+<body id="newsletter" class="clearfix">
+<main>
+    <h1>Nos newsletter</h1>
 
-    ?>
+    <?php
 
-    <div><a href="<?='getPageActu/' . $element['id']?>">
-        <div><?= $element['date'] ?></div>
-        <div><?= $element['architecte'] ?></div>
-        <div><?= $element['realisations'] ?></div>
-        <div><?= $element['rubrique'] ?></div>
-        <div><?= $element['lieu'] ?></div>
-        <div><?= $element['departement'] ?></div>
-        <div><?= $element['contenu'] ?></div>
-        <img src="assets/img-content/<?= $element['img'] ?>" alt="">
-    </div></a>
+    foreach ($viewmodel as $element):
+
+
+            ?>
+        <section>
+            <a href="<?='getPageActu/' . $element['id']?>">
+            <?php if ($viewmodel %2 != 0) :?>
+            <img src="/architecture.com/assets/img-content/<?=$element['img']?>" alt="">
+            <?php endif;?>
+
+                <div class="text-f">
+                    <h2><?=$element['architecte']?></h2>
+                    <p><?=$element['realisations']?></p>
+                    <p><?=$element['lieu']?><?=$element['date']?></p>
+                    <p><?=$element['rubrique']?></p>
+                </div>
+                <?php if ($viewmodel %2 != 1) :?>
+                    <img src="/architecture.com/assets/img-content/<?=$element['img']?>" alt="">
+                <?php endif;?>
+            </a>
+        </section>
 
 <?php endforeach; ?>
+</main>
+
+<?php include 'footer.php' ?>
 
 </body>
+
+
+
 </html>

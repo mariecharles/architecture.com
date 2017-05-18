@@ -1,5 +1,21 @@
-#newsletter{
+#newsletter main{
 font-family: 'Lato', sans-serif;
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 
 h1{
 	text-align:center;
@@ -46,25 +62,29 @@ img{
 	width:57%;
 
 }
-	section:nth-child(2),section:nth-child(4),section:nth-child(6){
-		text-align:right;
-	}
-	section:nth-child(3),section:nth-child(5){
-		text-align:left;
-			img{
-				margin: 0% 1% 0% 13%;
-			}
-			h2{
-				margin:3% 0% 2%;	
-			}
-	}
-	section:nth-child(4),section:nth-child(6){
-		clear: both;
-		margin-top: 9%;
-	}
+section:nth-child(2),section:nth-child(4),section:nth-child(6){
+	text-align:right;
+}
+section:nth-child(3),section:nth-child(5){
+	text-align:left;
+		img{
+			margin: 0% 1% 0% 13%;
+		}
+		h2{
+			margin:3% 0% 2%;	
+		}
+}
+section:nth-child(4),section:nth-child(6){
+	clear: both;
+	margin-top: 9%;
+}
+
+section:nth-child(2n+1) {
+	
+}
 
 
-	@media screen and (min-width: 400px) and (max-width: 860px){
+	@media screen and (max-width: 860px){
 		h2{
 			font-size:20px;
 			letter-spacing: 2px;
@@ -72,9 +92,7 @@ img{
 		p{
 			font-size: 13px;
 		}
-		p:nth-child(3),p:nth-child(4){
-			font-size:12px;
-		}
+		
 		img{
 			width: 35%;
 			margin-left: 2%;
@@ -87,6 +105,53 @@ img{
 				margin:3% 0% 2%;	
 			}
 	}
-
 	}
+
+	@media screen and(max-width: 730px){
+		h1{
+			font-size: 20px;
+		}
+		h2{
+			font-size:18px;
+			margin-bottom: 5%;
+		}
+		p:nth-child(2){
+			margin-bottom: 2%
+		}
+		p:nth-child(4){
+			margin-bottom: 4%;
+		}
+		.text-f{
+			float: none;
+			margin: auto;
+			width: 100%;
+		}
+		img{
+			width: 80%;
+			float: none;
+			margin-bottom: 6%;
+		}
+		section:nth-child(2),section:nth-child(4),section:nth-child(6),section:nth-child(3),section:nth-child(5){
+			text-align:center;
+			margin-top: 4%;
+		}
+		section:nth-child(3),section:nth-child(5){
+		background : #F1F1F1;
+			img{
+				margin-top: 7%;
+				margin-bottom: 5%;
+			}
+			p:nth-child(4){
+				padding-bottom: 5%;
+			}
+			h2{
+				margin:3% 0% 4%;
+			}
+		}
+		
+
+	}	
+
+
+		
 }

@@ -1,0 +1,156 @@
+#actualite {
+* {
+  margin: 0;
+  padding: 0;
+}
+#actualite-main {
+  overflow: hidden;
+}
+
+/*---------------ARTICLE----------------*/
+div.description-article-image {
+  background-color: #f6f6f6;
+}
+div.description-article {
+  text-align: center;
+  margin-top: 5%;
+}
+article.description {
+  display: block;
+  margin: auto;
+  width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    width: 80%;
+  }
+
+}
+article.description h1{
+  	font-size:24px;
+  	margin:5% 0% 2%;
+  	line-height:10px;
+  	border-bottom:#39C4D6 solid 9px;
+  	display:inline-block;
+  	text-transform: uppercase;
+  	letter-spacing:3px;
+    font-family: 'big_johnregular';
+
+    @media screen and (max-width: 1000px) {
+      font-size: 20px;
+    }
+
+    @media screen and(max-width: 800px) {
+      font-size: 14px;
+    }
+}
+article.description h3 {
+  font-size: 20px;
+  font-family:'Lato';
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 17px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+article.description h4 {
+  font-size: 18px;
+  font-family:'Lato';
+  line-height: 53px;
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+article.description p{
+  font-size: 18px;
+  font-family:'Lato';
+  font-weight: 300;
+  font-style: italic;
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+div.article {
+  text-align: center;
+  margin-top: 2%;
+}
+img.article-image {
+width: 50%;
+
+
+@media screen and (max-width: 1000px) {
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  width: 80%;
+}
+}
+
+
+
+/*------------------DESCRIPTIF ARTICLE---------------*/
+div.texte {
+  display: block;
+  margin: auto;
+  width: 70%;
+
+
+
+}
+
+article.description1 {
+  width: 100%;
+  padding-top: 50px;
+
+    p{
+      font-size: 13px;
+      font-family:'Lato';
+    }
+
+}
+
+
+/*--------------IMAGE-----------*/
+div.images {
+  margin-left: 14%;
+  width: 80%;
+  @media screen and (max-width: 700px) {
+    margin-left: 12%;
+
+  }
+
+}
+div.image-left {
+  float: left;
+  width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+
+  }
+}
+div.image-right {
+float: left;
+width: 40%;
+margin-left: 9%;
+@media screen and (max-width: 1000px) {
+  width: 100%;
+  margin-left: 0;
+}
+}
+
+img.right {
+  margin-top: 10%;
+  width: 95%;
+}
+img.left {
+  width: 95%;
+  margin-top: 10%;
+}
+
+
+}

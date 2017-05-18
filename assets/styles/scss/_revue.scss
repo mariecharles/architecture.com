@@ -1,0 +1,55 @@
+#revue {
+
+  h2{
+ text-align:center;
+  margin: 7% 0%;
+  font-family: 'big_johnregular';
+  letter-spacing:7px;
+  text-transform: uppercase;
+ 
+}
+
+  main{
+    width: 100%;
+  }
+  a{
+    float: left;
+    margin-right: 3%;
+    width: 20%;
+    margin-bottom: 50px;
+
+  }
+  a:first-child, a:nth-child(5),a:nth-child(9){
+    margin-left: 5%;
+  }
+  img{
+    width: 100%;
+  }
+  p{
+    text-align: center;
+  }
+
+    @media screen and (max-width: 750px) {
+      a{
+        width: 27%;
+      }
+      a:first-child, a:nth-child(4),a:nth-child(7),a:nth-child(10){
+        margin-left: 5%;
+      }
+      a:nth-child(5),a:nth-child(9){
+        margin-left: 0%;
+      }
+    }
+
+     @media screen and (max-width: 550px) {
+      a{
+        width: 43%;
+      }
+      a:nth-child(4),a:nth-child(7),a:nth-child(10){
+        margin-left: 0%;
+      }
+      a:nth-child(3),a:nth-child(5),a:nth-child(7),a:nth-child(9),a:nth-child(11){
+        margin-left: 5%;
+      }
+  }
+}
