@@ -61,7 +61,7 @@
 
     <div class="col-md-12 col-xs-12 background">
         <div class="title">
-            <h1 class="actualite-region">Toute l'actualite de l'architecture de votre région</h1>
+            <h1 class="actualite-region">Toute l'actualite de l'architecture de votre region</h1>
         </div>
 
         <div class="container-fluide approche-regionale-1-et-2">

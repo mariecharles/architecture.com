@@ -23,3 +23,15 @@ for (let i = 0; i < tabs.length; i++) {
     });
 }
 
+
+var burger = document.querySelector('div.nav_burger');
+var menu = document.querySelector('div.burger');
+var cross = document.querySelector('li.cross');
+
+menu.addEventListener('click', function() {
+  console.log('chien');
+  burger.classList.toggle('active');
+})
+cross.addEventListener('click', function() {
+  burger.classList.add('active');
+})

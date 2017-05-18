@@ -1,3 +1,6 @@
+<?php
+define('ROOT_URL', 'http://localhost/architecture.com/');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,13 +14,13 @@
     <nav class="nav_desk">
         <a href="#" class="logo"><img id="logo" src="/architecture.com/assets/img-layout/logo.png" alt=""></a>
         <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Nos revues</a></li>
-            <li><a href="">Commandes</a></li>
-            <li><a href="">Actualités</a></li>
-            <li><a href="">Appel d'offre</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href=""><span>+</span> S'abonner</a></li>
+            <li><a href="<?= ROOT_URL ?>">Accueil</a></li>
+            <li><a href="<?= ROOT_URL . 'revues/getListRevues'?>">Nos revues</a></li>
+            <li><a href="<?= ROOT_URL . 'views/user/commande.php'?>">Commandes</a></li>
+            <li><a href="<?= ROOT_URL . 'actu/getListActu'?>">Actualités</a></li>
+            <li><a href="<?= ROOT_URL . 'views/user/appeloffre.php'?>">Appel d'offre</a></li>
+            <li><a href="<?= ROOT_URL . 'views/user/contact.php'?>">Contact</a></li>
+            <li><a href="<?= ROOT_URL . 'views/user/commande.php'?>"><span>+</span> S'abonner</a></li>
         </ul>
     </nav>
 

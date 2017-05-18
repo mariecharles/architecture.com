@@ -18,10 +18,10 @@ foreach ($viewmodel as $element):
     </a>
 
 <?php endforeach; ?>
-    <?php include 'footer.php' ?>
+
 </main>
 
-
+<?php include 'footer.php' ?>
 
 </body>
 
