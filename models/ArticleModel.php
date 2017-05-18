@@ -10,7 +10,7 @@ class ArticleModel extends Model {
 
     public function pageFromActu() {
 
-        $sql = "SELECT `id`, `date`, `architecte`, `realisations`, `rubrique`, `lieu`, `departement`, `contenu` FROM `actu` WHERE `id` = :id";
+        $sql = "SELECT `id`, `date`, `architecte`, `realisations`, `rubrique`, `lieu`, `departement`, `contenu`, `img` FROM `actu` WHERE `id` = :id";
 
         $this->_stmt = $this->pdo->prepare($sql);
 

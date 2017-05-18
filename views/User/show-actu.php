@@ -1,14 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/architecture.com/assets/styles/css/screen.css">
+<?php include 'headeruser.php' ?>
 
-    <title>larchitecture.com - Newsletter</title>
-</head>
 <body id="newsletter" class="clearfix">
 <main>
     <h1>Nos newsletter</h1>
@@ -17,40 +8,33 @@
 
     foreach ($viewmodel as $element):
 
-        if ($viewmodel %2 != 0) :
 
-  ?>   <section>
-        <a href="<?='getPageActu/' . $element['id']?>">
-        <div class="text-f">
-            <h2><?=$element['architecte']?></h2>
-            <p><?=$element['realisations']?></p>
-             <p><?=$element['lieu']?><?=$element['date']?></p>
-             <p><?=$element['rubrique']?></p>
-         </div>
-         <img src="/architecture.com/assets/img-content/<?=$element['img']?>" alt="">
-         </a>
-    </section>
-
-    <?php else : ?>
-
-    <section>
-        <a href="<?='getPageActu/' . $element['id']?>">
+            ?>
+        <section>
+            <a href="<?='getPageActu/' . $element['id']?>">
+            <?php if ($viewmodel %2 != 0) :?>
             <img src="/architecture.com/assets/img-content/<?=$element['img']?>" alt="">
-            <div class="text-f">
-                <h2><?=$element['architecte']?></h2>
-                <p><?=$element['realisations']?></p>
-                <p><?=$element['lieu']?><?=$element['date']?></p>
-                <p><?=$element['rubrique']?></p>
-            </div>
+            <?php endif;?>
 
-        </a>
-    </section>
+                <div class="text-f">
+                    <h2><?=$element['architecte']?></h2>
+                    <p><?=$element['realisations']?></p>
+                    <p><?=$element['lieu']?><?=$element['date']?></p>
+                    <p><?=$element['rubrique']?></p>
+                </div>
+                <?php if ($viewmodel %2 != 1) :?>
+                    <img src="/architecture.com/assets/img-content/<?=$element['img']?>" alt="">
+                <?php endif;?>
+            </a>
+        </section>
 
-    <?php endif;
-
-    endforeach; ?>
+<?php endforeach; ?>
 </main>
 
+<?php include 'footer.php' ?>
+
 </body>
+
+
 
 </html>
